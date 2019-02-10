@@ -1,0 +1,83 @@
+.emoji {
+  padding-left: 8px;
+}
+
+.darkmode-label {
+  font-size: smaller;
+  vertical-align: top;
+}
+
+/* Dark mode styles */
+.darkmode-switcher {
+  color: #a8a8a8;
+  margin-bottom: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding-left: 0;
+}
+
+@media (min-width: 992px) {
+  .darkmode-switcher {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+  }
+}
+
+.dark-mode {
+  background-color: #2a2b2d;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.light-mode {
+  transition: all 0.3s ease;
+}
+
+.dark-mode a,
+.dark-mode a:visited {
+  color: rgb(73, 223, 255);
+}
+
+.dark-mode hr {
+  background: #505050;
+}
+
+.dark-mode blockquote {
+  color: inherit;
+  border-color: inherit;
+}
+
+ul li {
+  margin-left: -0.4rem;
+  padding-left: 0.4rem;
+}
+
+ol li {
+  margin-left: -0.4rem;
+  padding-left: 0.4rem;
+}
+
+.menu > ul > li > a {
+  color: #6b6b6b;
+}
+.cross-fade-leave {
+  opacity: 1;
+}
+.cross-fade-leave.cross-fade-leave-active {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.cross-fade-enter {
+  opacity: 0;
+}
+.cross-fade-enter.cross-fade-enter-active {
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
+.cross-fade-height {
+  transition: height 0.4s ease-in-out;
+}
