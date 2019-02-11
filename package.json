@@ -1,11 +1,11 @@
 {
   "name": "jays-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Jay Hankins's website.",
   "version": "1.0.0",
   "author": "Jay Hankins <jay@jayhankins.me>",
   "bugs": {
-    "url": "https://github.com/jay-hankins/jay-hankins.github.io/issues"
+    "url": "https://github.com/jay-hankins/jayhankins.me/issues"
   },
   "dependencies": {
     "gatsby": "^2.0.76",
@@ -37,10 +37,7 @@
     "react-helmet": "^5.2.0",
     "react-transition-group": "^2.5.3",
     "react-typography": "^0.16.13",
-    "typeface-ibm-plex-sans": "^0.0.61",
     "typeface-ibm-plex-serif": "^0.0.61",
-    "typeface-inter": "^3.2.0",
-    "typeface-sarabun": "^0.0.71",
     "typography": "^0.16.17",
     "typography-theme-wordpress-2016": "^0.15.10"
   },
@@ -58,7 +55,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jay-hankins/jay-hankins.github.io"
+    "url": "git+https://github.com/jay-hankins/jayhankins.me.git"
   },
   "scripts": {
     "dev": "gatsby develop",
@@ -69,6 +66,6 @@
     "start": "npm run develop",
     "build": "gatsby build",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js",
-    "deploy": "rm -rf public/ .cache/ && gatsby build && gh-pages -d public -b master"
+    "deploy": "rm -rf public/ .cache/ && gatsby build && gh-pages -d public -b gh-pages"
   }
 }
