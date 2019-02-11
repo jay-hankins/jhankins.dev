@@ -4,8 +4,9 @@ import { Link } from 'gatsby';
 import { rhythm } from '../utils/typography';
 
 const links = [
-  { title: 'About', path: '/about' },
   { title: 'Resume', path: '/resume.pdf', type: 'a' },
+  { title: 'About', path: '/about' },
+  { title: 'Contact', path: '/contact' },
 ];
 
 const Menu = () => (
