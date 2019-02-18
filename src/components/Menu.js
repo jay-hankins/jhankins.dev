@@ -1,22 +1,20 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
-
-// import resumePdf from '../../content/resume.pdf';
+import { Link } from 'gatsby';
 
 import { rhythm } from '../utils/typography';
 
 const links = [{ title: 'Resume', path: '/resume.pdf', type: 'a' }];
 
 const Menu = () => (
-  <nav class="menu">
-    <ul style={{ listStyle: 'none' }} id="menu" class="menu">
+  <nav className="menu">
+    <ul style={{ listStyle: 'none' }} id="menu" className="menu">
       {links.map(link =>
         link.type === 'a' ? (
-          <li class="navItem">
+          <li className="navItem">
             <a href={link.path}>{link.title}</a>
           </li>
         ) : (
-          <li class="navItem">
+          <li className="navItem">
             <Link
               style={{
                 boxShadow: `none`,

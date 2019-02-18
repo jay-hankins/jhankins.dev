@@ -2,7 +2,7 @@
   "name": "jays-blog",
   "private": true,
   "description": "Jay Hankins's website.",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "Jay Hankins <jay@jayhankins.me>",
   "bugs": {
     "url": "https://github.com/jay-hankins/jayhankins.me/issues"
@@ -37,15 +37,17 @@
     "react-helmet": "^5.2.0",
     "react-transition-group": "^2.5.3",
     "react-typography": "^0.16.13",
-    "typeface-ibm-plex-serif": "^0.0.61",
+    "typeface-karla": "^0.0.54",
     "typography": "^0.16.17",
     "typography-theme-wordpress-2016": "^0.15.10"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-plugin-react": "^7.11.1",
+    "file-system": "^2.2.2",
     "gh-pages": "^2.0.1",
-    "prettier": "^1.14.2"
+    "prettier": "^1.14.2",
+    "typescript": "^3.3.3"
   },
   "homepage": "https://jayhankins.me",
   "keywords": [
@@ -59,6 +61,7 @@
   },
   "scripts": {
     "dev": "gatsby develop",
+    "sign": "node utils/sign-posts.js",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
     "format": "prettier --write 'src/**/*.js' 'src/**/*.md'",
@@ -66,6 +69,7 @@
     "start": "npm run develop",
     "build": "gatsby build",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js",
-    "deploy": "rm -rf public/ .cache/ && gatsby build && gh-pages -d public -b gh-pages"
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
+    "hard-deploy": "rm -rf public/ .cache/ && gatsby build && gh-pages -d public -b gh-pages"
   }
 }

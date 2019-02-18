@@ -2,6 +2,33 @@
   padding-left: 8px;
 }
 
+.emoji > img {
+  height: 28px;
+  width: 28px;
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+}
+
+.PGPInfo {
+  letter-spacing: -0.3pt;
+  font-size: smaller;
+}
+
+.PGPInfo ul {
+  list-style: none;
+}
+
+.PGPInfo > ul > li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.PGPInfo a {
+  /* box-shadow: none; */
+  color: #505050;
+}
+
 .darkmode-label {
   font-size: smaller;
   vertical-align: top;

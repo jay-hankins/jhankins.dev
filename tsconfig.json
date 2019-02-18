@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "preserve",
+    "outDir": "utils/"
+  },
+  "exclude": ["node_modules", "**/node_modules/*"],
+  "include": ["utils/src/*"]
+}

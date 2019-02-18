@@ -6,6 +6,7 @@ import hash from 'hash-sum';
 import Bio from '../components/Bio';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
+import PGPInfo from '../components/PGPInfo';
 import { rhythm, scale } from '../utils/typography';
 import ThemeContext from '../context/ThemeContext';
 import ReactCSSTransitionReplace from 'react-css-transition-replace';
@@ -57,7 +58,8 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-        <Bio />
+        <PGPInfo slug={post.fields.slug} />
+        {/* <Bio /> */}
 
         <ul
           style={{
@@ -102,6 +104,9 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")

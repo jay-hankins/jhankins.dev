@@ -4,6 +4,8 @@ import { Link } from 'gatsby';
 import { rhythm, scale } from '../utils/typography';
 import './layout.css';
 import ThemeContext from '../context/ThemeContext';
+import standby from '../../content/assets/standby.png';
+import Bio from '../components/Bio';
 
 class Layout extends React.Component {
   render() {
@@ -77,13 +79,16 @@ class Layout extends React.Component {
                 ) : (
                   <div>
                     <span className="darkmode-label">Dark mode</span>
-                    <span className="emoji">️🌙</span>
+                    <span className="emoji">
+                      ️<img src={standby} alt="Windows 98 Standby Icon" />
+                    </span>
                   </div>
                 )}
               </button>
               {children}
               <hr />
               <footer>
+                <Bio />
                 <p>© {new Date().getFullYear()} Jay Hankins</p>
                 <p>
                   Except where otherwise noted, content on this site is licensed
