@@ -5,6 +5,7 @@ import { rhythm, scale } from '../utils/typography';
 import './layout.css';
 import ThemeContext from '../context/ThemeContext';
 import standby from '../../content/assets/standby.png';
+import sun from '../../content/assets/sun.png';
 import Bio from '../components/Bio';
 
 class Layout extends React.Component {
@@ -74,7 +75,9 @@ class Layout extends React.Component {
                 {theme.darkMode ? (
                   <div>
                     <span className="darkmode-label">Light mode</span>
-                    <span className="emoji">☀️</span>
+                    <span className="emoji">
+                      ️<img src={sun} alt="Wake Icon" />
+                    </span>
                   </div>
                 ) : (
                   <div>
