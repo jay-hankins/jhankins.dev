@@ -108,3 +108,7 @@ ol li {
 .cross-fade-height {
   transition: height 0.4s ease-in-out;
 }
+
+video {
+  width: 100%;
+}

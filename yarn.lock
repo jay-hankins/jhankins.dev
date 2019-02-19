@@ -5073,6 +5073,16 @@ gatsby-remark-embed-gist@^1.1.5:
     request "^2.88.0"
     request-promise "^4.2.2"
 
+gatsby-remark-embed-snippet@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-embed-snippet/-/gatsby-remark-embed-snippet-3.2.2.tgz#278409d2cb5aa17f684dc4646560f8bd7f523781"
+  integrity sha512-wAyWvJz05iNqZekgGzz/c93mStINyU3PyJQijjg7vUuShGmJKCR8MOAYIBG5u4D8ohF4bOlT9Wmc5lqa5FEmhg==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    normalize-path "^2.1.1"
+    parse-numeric-range "^0.0.2"
+    unist-util-map "^1.0.3"
+
 gatsby-remark-images@^2.0.4:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-2.0.6.tgz#7567b40be11fec8931084f27d8b3aa18ccc4d5fc"
@@ -5115,6 +5125,13 @@ gatsby-remark-smartypants@^2.0.5:
     retext "^5.0.0"
     retext-smartypants "^3.0.0"
     unist-util-visit "^1.3.0"
+
+gatsby-remark-video@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-video/-/gatsby-remark-video-1.2.0.tgz#ee11f05b5782269ded3dd96309d179341e61db4c"
+  integrity sha512-C+h1g/tiOHe5RA3sn3wVqKdIQK42/B1eWfW/wwcOJJEJKwabluhjoXUhgaCjAnLvK+2cCYyhD84N55qy/ZUpsg==
+  dependencies:
+    unist-util-visit "^1.4.0"
 
 gatsby-source-filesystem@^2.0.2:
   version "2.0.20"
@@ -11614,30 +11631,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typeface-bitter@^0.0.71:
-  version "0.0.71"
-  resolved "https://registry.yarnpkg.com/typeface-bitter/-/typeface-bitter-0.0.71.tgz#bfd97a1b3a52c1275319ca169f92e3419c7abf8e"
-  integrity sha512-F8fJUCWtVTkgw2UfxaYOQt3lPsrmGKYiUC3ZOBcS88QuRpN0qd29s07o2q07vow2E+KP8LLuezbrZ/rTMw/XlQ==
-
-typeface-ibm-plex-serif@^0.0.61:
-  version "0.0.61"
-  resolved "https://registry.yarnpkg.com/typeface-ibm-plex-serif/-/typeface-ibm-plex-serif-0.0.61.tgz#4206961f3d03b7d701c958668c3a6bc27581cae0"
-  integrity sha512-dtfGB1dLjxq+BZnJlcAep+SNInAyy26D0G1LMkuZACm0mHwjKOD6tPxVrDroN3WYRzKWNt8DaFpVFmO7NzNh/A==
-
 typeface-karla@^0.0.54:
   version "0.0.54"
   resolved "https://registry.yarnpkg.com/typeface-karla/-/typeface-karla-0.0.54.tgz#f59d09b329a378db2161a3ecd6e6a0054699b579"
   integrity sha512-8LI3n3KGAF94hvnozruF5oEu00YnVgkTjFDESs47S6Z6WeTEvyxLnoR9Dlv7IW48rqZekLMgYhfgkfxkKpYAEQ==
-
-typeface-lora@^0.0.54:
-  version "0.0.54"
-  resolved "https://registry.yarnpkg.com/typeface-lora/-/typeface-lora-0.0.54.tgz#7767eeaf17bf066b8faf25f3057dd5eaa0a9f39a"
-  integrity sha512-id4i+3grpbKM4sKDjWdTs93lFrTJ/JGxC513GB4h7zpY1oUNZxSf45FpHaGUx87Sg0WVPfnvYoNWlnIXsXVHaA==
-
-typeface-noto-sans@^0.0.54:
-  version "0.0.54"
-  resolved "https://registry.yarnpkg.com/typeface-noto-sans/-/typeface-noto-sans-0.0.54.tgz#16989ef56a5220b0503495ab8c1036f66b517b55"
-  integrity sha512-wV2BNwFuSOYaz96gk5fDuD0RB4pPKKgQvvM9ep6jWRUTqPuND+fM4wz0xAqxopTYeZ/sVunyFIc3iCq7gMbULQ==
 
 typescript@^3.3.3:
   version "3.3.3"
@@ -11802,6 +11799,13 @@ unist-util-is@^2.0.0, unist-util-is@^2.1.2:
   resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-2.1.2.tgz#1193fa8f2bfbbb82150633f3a8d2eb9a1c1d55db"
   integrity sha512-YkXBK/H9raAmG7KXck+UUpnKiNmUdB+aBGrknfQ4EreE1banuzrKABx3jP6Z5Z3fMSPMQQmeXBlKpCbMwBkxVw==
 
+unist-util-map@^1.0.3:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/unist-util-map/-/unist-util-map-1.0.4.tgz#f27bb03e14e8072171379d132c96c1dfcea44574"
+  integrity sha512-Qv68pQz05hQbjPI+TubZQI5XII5DScRVWaKNc6+qfmHaFGxaGUbkV8i++mM2nk7XgwXE+vei99d/Q2d1tMA3EQ==
+  dependencies:
+    object-assign "^4.0.1"
+
 unist-util-modify-children@^1.0.0:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/unist-util-modify-children/-/unist-util-modify-children-1.1.3.tgz#d764a935f612dfb21b1bb92b0ea24321dc19a5f7"
@@ -11847,7 +11851,7 @@ unist-util-visit-parents@^2.0.0, unist-util-visit-parents@^2.0.1:
   dependencies:
     unist-util-is "^2.1.2"
 
-unist-util-visit@^1.0.0, unist-util-visit@^1.1.0, unist-util-visit@^1.3.0:
+unist-util-visit@^1.0.0, unist-util-visit@^1.1.0, unist-util-visit@^1.3.0, unist-util-visit@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-1.4.0.tgz#1cb763647186dc26f5e1df5db6bd1e48b3cc2fb1"
   integrity sha512-FiGu34ziNsZA3ZUteZxSFaczIjGmksfSgdKqBfOejrrfzyUy5b7YrlzT1Bcvi+djkYDituJDy2XB7tGTeBieKw==

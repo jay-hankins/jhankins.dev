@@ -39,6 +39,16 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
+          {
+            resolve: 'gatsby-remark-video',
+            options: {
+              width: 700,
+              height: 'auto',
+              preload: 'auto',
+              muted: true,
+              autoplay: true,
+            },
+          },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
           {
@@ -52,6 +62,23 @@ module.exports = {
               // a flag indicating whether the github default gist css should be included or not
               // default: true
               includeDefaultCss: false,
+            },
+          },
+          {
+            resolve: 'gatsby-remark-embed-snippet',
+            options: {
+              // Class prefix for <pre> tags containing syntax highlighting;
+              // defaults to 'language-' (eg <pre class="language-js">).
+              // If your site loads Prism into the browser at runtime,
+              // (eg for use with libraries like react-live),
+              // you may use this to prevent Prism from re-processing syntax.
+              // This is an uncommon use-case though;
+              // If you're unsure, it's best to use the default value.
+              classPrefix: 'language-',
+
+              // Example code links are relative to this dir.
+              // eg examples/path/to/file.js
+              directory: `${__dirname}/content/examples/`,
             },
           },
           {

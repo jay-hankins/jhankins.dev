@@ -1,4 +1,4 @@
-//@ts-check
+// PGPInfo.jsx
 import React from 'react';
 
 const githubPrefixUrl =
