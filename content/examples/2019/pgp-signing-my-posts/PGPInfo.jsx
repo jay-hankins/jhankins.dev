@@ -9,7 +9,7 @@ const PGPInfo = ({ slug }) => {
     <div className="PGPInfo">
       <ul>
         <li>
-          <a href={`${githubPrefixUrl}${slug}`}>View Post Source</a>
+          <a href={`${githubPrefixUrl}${slug}index.md`}>View Post Source</a>
         </li>
         <li>
           <a href={`${githubPrefixUrl}${slug}index.md.asc`}>
