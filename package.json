@@ -40,6 +40,9 @@
     "react-transition-group": "^2.5.3",
     "react-typography": "^0.16.13",
     "typeface-karla": "^0.0.54",
+    "typeface-lato": "^0.0.54",
+    "typeface-open-sans": "^0.0.54",
+    "typeface-roboto": "^0.0.54",
     "typography": "^0.16.17",
     "typography-theme-wordpress-2016": "^0.15.10"
   },

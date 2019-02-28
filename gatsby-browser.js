@@ -1,6 +1,6 @@
 // custom typefaces
 import 'prismjs/themes/prism-okaidia.css';
-import 'typeface-karla';
+// import 'typeface-karla';
 import React from 'react';
 
 import ThemeContext from './src/context/ThemeContext';

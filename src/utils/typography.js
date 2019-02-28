@@ -15,8 +15,8 @@ const systemFontStack = [
   'Segoe UI Symbol',
   'Noto Color Emoji',
 ];
-const bodyFontStack = ['Karla', ...systemFontStack];
-const headerFontStack = [...bodyFontStack];
+const bodyFontStack = [...systemFontStack];
+const headerFontStack = [...systemFontStack];
 
 Wordpress2016.overrideThemeStyles = () => {
   return {
@@ -26,18 +26,18 @@ Wordpress2016.overrideThemeStyles = () => {
     h1: {
       fontFamily: headerFontStack.join(','),
       fontWeight: 600,
-      letterSpacing: '-1.0pt',
+      // letterSpacing: '-1.0pt',
     },
     h2: {
-      // fontWeight: 600,
-      letterSpacing: '-0.5pt',
+      fontWeight: 600,
+      // letterSpacing: '-0.5pt',
     },
     h3: {
-      // fontWeight: 600,
-      letterSpacing: '-0.5pt',
+      fontWeight: 600,
+      // letterSpacing: '-0.5pt',
     },
     p: {
-      letterSpacing: '-0.2pt',
+      // letterSpacing: '-0.2pt',
     },
   };
 };
