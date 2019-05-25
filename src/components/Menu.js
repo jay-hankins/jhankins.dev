@@ -3,7 +3,10 @@ import { Link } from 'gatsby';
 
 import { rhythm } from '../utils/typography';
 
-const links = [{ title: 'Resume', path: '/resume.pdf', type: 'a' }];
+const links = [
+  { title: 'About', path: '/about' },
+  { title: 'Resume', path: '/resume.pdf', type: 'a' },
+];
 
 const Menu = () => (
   <nav className="menu">
