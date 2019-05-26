@@ -112,3 +112,9 @@ ol li {
 video {
   width: 100%;
 }
+
+figcaption {
+  font-size: smaller;
+  font-style: italic;
+  text-align: center;
+}
