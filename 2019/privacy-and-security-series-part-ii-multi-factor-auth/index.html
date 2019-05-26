@@ -7,12 +7,12 @@ the importance of password managers. In the face of data breaches and credential
 dumps occurring nearly…"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="Jay Hankins"/><meta data-react-helmet="true" name="twitter:title" content="Privacy and Security Series, Part II: Multi-factor Authentication"/><meta data-react-helmet="true" name="twitter:description" content="In the last Privacy and Security Series
 post, I wrote about
 the importance of password managers. In the face of data breaches and credential
-dumps occurring nearly…"/><link as="script" rel="preload" href="/webpack-runtime-e2b74d54c3d8621f5789.js"/><link as="script" rel="preload" href="/app-930f8d0e5531caef4be1.js"/><link as="script" rel="preload" href="/styles-d5d842384caac00fd769.js"/><link as="script" rel="preload" href="/1-76229f344d985b642376.js"/><link as="script" rel="preload" href="/9-ec02125eda3da4a3e156.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-8d4e750e8c62107029d8.js"/><link as="fetch" rel="preload" href="/static/d/853/path---2019-privacy-and-security-series-part-ii-multi-factor-auth-b-40-ecd-9MxHbbZkgFCaKNM6U6BZU68lRIU.json" crossorigin="use-credentials"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div class="light-mode"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><h3 style="margin-top:0"><a style="box-shadow:none;text-decoration:none;color:inherit" href="/">Jay&#x27;s Blog</a></h3><button class="darkmode-switcher"><div><span class="darkmode-label">Dark mode</span><span class="emoji">️<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAG1BMVEUAAACAgIDAwMD///8AAAAAAIAAAP+AgAD//wCgvZcpAAAAAXRSTlMAQObYZgAAAAFiS0dEAxEMTPIAAAAHdElNRQfiBhoANCHQ/7HbAAAAqUlEQVQ4y93SsQ3CMBAFULMBF2cBbgUWcKKQAZC8gtNTpaYIjI05xyaxvzsauPI/fZ9OslJ/NQcignnDzFTJkegzB8kf1Bwlq2muiAcsmrutHDdwoST9qd3AaKNQTztwqxB1GQQhACIIbottEEx3564I5io8vgbTE4J1bl5K8Jd5SQ2ToF0lwKeg1BAkgFGFCAz7jyIiYFQpEEQgiEB4S7E7Cs69VPIfnhcEe0eClgGH3wAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0wNi0yNlQwMDo1MjozMy0wNDowMEq1nrQAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTgtMDYtMjZUMDA6NTI6MzMtMDQ6MDA76CYIAAAAAElFTkSuQmCC" alt="Windows 98 Standby Icon"/></span></div></button><h1>Privacy and Security Series, Part II: Multi-factor Authentication</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem;margin-top:-1.75rem">May 26, 2019</p><div><span><div><svg></svg></div></span></div><div><p>In the <a href="../privacy-and-security-series-part-i-password-managers/">last Privacy and Security Series
+dumps occurring nearly…"/><link as="script" rel="preload" href="/webpack-runtime-3ee95b575745ca4d5f51.js"/><link as="script" rel="preload" href="/app-930f8d0e5531caef4be1.js"/><link as="script" rel="preload" href="/styles-d5d842384caac00fd769.js"/><link as="script" rel="preload" href="/1-76229f344d985b642376.js"/><link as="script" rel="preload" href="/9-ec02125eda3da4a3e156.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-8d4e750e8c62107029d8.js"/><link as="fetch" rel="preload" href="/static/d/936/path---2019-privacy-and-security-series-part-ii-multi-factor-auth-b-40-ecd-XGcxg88y9tORRv4T9dvduCSo.json" crossorigin="use-credentials"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div class="light-mode"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><h3 style="margin-top:0"><a style="box-shadow:none;text-decoration:none;color:inherit" href="/">Jay&#x27;s Blog</a></h3><button class="darkmode-switcher"><div><span class="darkmode-label">Dark mode</span><span class="emoji">️<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAG1BMVEUAAACAgIDAwMD///8AAAAAAIAAAP+AgAD//wCgvZcpAAAAAXRSTlMAQObYZgAAAAFiS0dEAxEMTPIAAAAHdElNRQfiBhoANCHQ/7HbAAAAqUlEQVQ4y93SsQ3CMBAFULMBF2cBbgUWcKKQAZC8gtNTpaYIjI05xyaxvzsauPI/fZ9OslJ/NQcignnDzFTJkegzB8kf1Bwlq2muiAcsmrutHDdwoST9qd3AaKNQTztwqxB1GQQhACIIbottEEx3564I5io8vgbTE4J1bl5K8Jd5SQ2ToF0lwKeg1BAkgFGFCAz7jyIiYFQpEEQgiEB4S7E7Cs69VPIfnhcEe0eClgGH3wAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0wNi0yNlQwMDo1MjozMy0wNDowMEq1nrQAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTgtMDYtMjZUMDA6NTI6MzMtMDQ6MDA76CYIAAAAAElFTkSuQmCC" alt="Windows 98 Standby Icon"/></span></div></button><h1>Privacy and Security Series, Part II: Multi-factor Authentication</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem;margin-top:-1.75rem">May 26, 2019</p><div><span><div><svg></svg></div></span></div><div><p>In the <a href="../privacy-and-security-series-part-i-password-managers/">last Privacy and Security Series
 post</a>, I wrote about
 the importance of password managers. In the face of data breaches and credential
 dumps occurring nearly every day, you need a strategy to protect yourself.
 Single-factor password authentication is weak, but password managers are a convenient tool to help you lock down your online accounts and localize
-a breach so that one data breach doesn’t give an attacker the “keys to the
+a breach so that one leaked credential doesn’t give an attacker the “keys to the
 kingdom”. It’s all about preventing access to your accounts, people.</p>
 <p>By the way, in March news broke that 8fit had a data breach in July 2018. While
 the breach happened in July, the credential list didn’t appear for sale on the
@@ -20,7 +20,7 @@ dark web until February 2019. My credentials, along with about 15 million
 others’, were leaked. Thanks to <a href="https://haveibeenpwned.com">HaveIBeenPwned</a>, I
 knew as soon as the experts did. If you didn’t sign up for it the <a href="../privacy-and-security-series-part-i-password-managers/">last time I
 mentioned it</a>, I again
-recommend it. </p>
+recommend it.</p>
 <p>In addition to adhering to password manager best practices, you can bring
 another layer of security to your online accounts with multi-factor
 authentication. Welcome to Part 2, all about multi-factor auth, why it’s useful,
@@ -105,8 +105,8 @@ single best-selling hardware token for 2FA. <sup id="fnref-1"><a href="#fn-1" cl
   <figcaption>Authy is a popular authenticator app which functions as a software token and a push authenticator.</figcaption>
 </figure>
 <h3>Why Use MFA?</h3>
-<p>Basically, the strength in multi-factor auth is that it gives you an extra layer
-of security on top of passwords. More generically, MFA protects you when one of
+<p>Basically, the strength of multi-factor auth is that it gives you an extra layer
+of security on top of passwords. More generally, MFA protects you when one of
 your factors is compromised.</p>
 <p>Say you only use a username/password combination to log into your Google/Gmail
 Account. That’s one factor, the password. If it’s leaked, <strong>100%</strong> of the
@@ -238,9 +238,9 @@ it because of how much more secure the practice can make your accounts.</p>
 <li>
 <p><strong>What about logging into applications?</strong></p>
 <p>This is a bit of a caveat. Modern applications that use OAUTH2 for logging
-into web services will typically NOT need any special treatment. Actually,
-they are secured through the online service’s MFA login. For example, adding
-a Gmail account to an iPhone loads a Google login flow page.</p>
+into web services will typically <strong>not</strong> need any special treatment.
+Actually, they are secured through the online service’s MFA login. For
+example, adding a Gmail account to an iPhone loads a Google login flow page.</p>
 <p>Other, older applications might need a statically generated password that
 bypasses the MFA login flow. For example, using Gmail over the IMAP protocol
 will need what Google calls an “application password”.</p>
@@ -259,10 +259,10 @@ don’t know what my readers are getting up to.</p>
 fairly easy for an attacker to socially engineer their way into obtaining a
 SIM card for <em>your</em> account. Then, suddenly, text messages meant for you are
 going to their phone, and they can get those SMS 2FA codes.</p>
-<p>Make sure you’ve taken security seriously with your cell phone carrier as
-well. Avoid using real answers to the security questions, and make sure you
-have any locks turned on. Certain carriers allow you to set a passphrase or
-PIN which would be required to process any changes on the account.</p>
+<p>Make sure you’ve taken security seriously with your cell phone carrier. Avoid
+using real answers to the security questions, and make sure you have any
+locks turned on. Some carriers allow you to set a passphrase or PIN which
+would be required to process any changes on the account.</p>
 </li>
 <li>
 <p><strong>What happens if I lose my token (or phone)?</strong></p>
@@ -278,11 +278,14 @@ the (unlikely, I hope) event that lose my primary authenticators.</p>
 <li>
 <p><strong>What are some other advantages and disadvantages of using mobile phones as
 authentication tokens?</strong></p>
-<p>Wikipedia has a great
+<p>Mobile phones are a great way to get started with two-factor authentication,
+either by SMS or a TOTP authenticator app. Authenticator apps are better
+typically. Wikipedia has a great
 <a href="https://en.m.wikipedia.org/wiki/Multi-factor_authentication#Use_of_mobile_phones">section</a>
-on this. <strong>tl;dr:</strong> phones may not be a great option if your data connection
-isn’t solid, and SMS delivery can be flaky in general. Authenticator apps
-like Authy which use TOTP overcome this since the OTP is generated on-device.</p>
+on the advantages and disadvantages. <strong>tl;dr:</strong> phones may not be a great
+option if your data connection isn’t solid, and SMS delivery can be flaky
+in general. TOTP authenticator apps overcome this since the OTP is generated
+on-device.</p>
 </li>
 </ol>
 <h2>Next Time</h2>
@@ -323,4 +326,4 @@ gun-to-head scenario.</p>
 </div></div><hr style="margin-bottom:1.75rem"/><div class="PGPInfo"><ul><li><a href="https://github.com/jay-hankins/jayhankins.me/tree/master/content/blog/2019/privacy-and-security-series-part-ii-multi-factor-auth/">View Post Source</a></li><li><a href="https://github.com/jay-hankins/jayhankins.me/tree/master/content/blog/2019/privacy-and-security-series-part-ii-multi-factor-auth/index.md.asc">View PGP Signature</a></li></ul></div><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/2019/pgp-signing-my-posts/">← <!-- -->PGP Signing My Posts</a></li><li></li></ul><hr/><footer><div style="display:flex;margin-bottom:4.375rem"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:50px;height:50px;margin-right:0.875rem;margin-bottom:0;min-width:50px;border-radius:100%"><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAMEBQEC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQIE/9oADAMBAAIQAxAAAAHOs1rc3EgJs+zTl4LP/8QAGRAAAwEBAQAAAAAAAAAAAAAAAQIRAAME/9oACAEBAAEFAkFLcyhZ9yMc1tCN5gBxmp3/xAAXEQEAAwAAAAAAAAAAAAAAAAAAARAS/9oACAEDAQE/AWk1/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAIQEf/aAAgBAgEBPwFiNf/EABwQAAICAgMAAAAAAAAAAAAAAAABAhEQISJBgf/aAAgBAQAGPwI3XhoVKxpROSZGu1n/xAAbEAEAAwADAQAAAAAAAAAAAAABABEhMWFxUf/aAAgBAQABPyGoDlyBtha1NTpE1seDYT0vKiihvkoIGi/ZQbCd0//aAAwDAQACAAMAAAAQv8gA/8QAGREBAQEAAwAAAAAAAAAAAAAAAREAECFR/9oACAEDAQE/EBAvmp7ubXj/xAAXEQEBAQEAAAAAAAAAAAAAAAARAAEh/9oACAECAQE/EB0ubOEX/8QAHBABAQADAQADAAAAAAAAAAAAAREAITFBUXGB/9oACAEBAAE/EGZ7AbncbRDGjz4/MoQgRuLcZEoIccwq7cqGByfWSU/j4y7Jo203uC4BcaJWf//Z" alt="Jay Hankins" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms;border-radius:50%"/><noscript><picture><img width="50" height="50" srcset="/static/a3ce3e51478e47ec4d8f1371c7914e14/c15d6/profile-pic.jpg 1x,
 /static/a3ce3e51478e47ec4d8f1371c7914e14/43c20/profile-pic.jpg 1.5x,
 /static/a3ce3e51478e47ec4d8f1371c7914e14/da97e/profile-pic.jpg 2x,
-/static/a3ce3e51478e47ec4d8f1371c7914e14/3e75a/profile-pic.jpg 3x" src="/static/a3ce3e51478e47ec4d8f1371c7914e14/c15d6/profile-pic.jpg" alt="Jay Hankins" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p style="margin-bottom:0.35rem"><a href="https://twitter.com/jay_hankins">Jay Hankins</a> is a software engineer living in San Francisco.</p></div><p>© <!-- -->2019<!-- --> Jay Hankins</p><p>Except where otherwise noted, content on this site is licensed under a<!-- --> <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p></footer></div></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-blog-post-js","jsonName":"2019-privacy-and-security-series-part-ii-multi-factor-auth-b40","path":"/2019/privacy-and-security-series-part-ii-multi-factor-auth/"};window.dataPath="853/path---2019-privacy-and-security-series-part-ii-multi-factor-auth-b-40-ecd-9MxHbbZkgFCaKNM6U6BZU68lRIU";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-930f8d0e5531caef4be1.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-f75d2608a62a3c9d03f3.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-8d4e750e8c62107029d8.js"],"component---src-pages-404-js":["/component---src-pages-404-js-1e9354dba0f0ecaf7feb.js"],"component---src-pages-index-js":["/component---src-pages-index-js-028881deb3d4bac71b47.js"],"pages-manifest":["/pages-manifest-c1c5edd38c6daa6de00d.js"]};/*]]>*/</script><script src="/component---src-templates-blog-post-js-8d4e750e8c62107029d8.js" async=""></script><script src="/9-ec02125eda3da4a3e156.js" async=""></script><script src="/1-76229f344d985b642376.js" async=""></script><script src="/styles-d5d842384caac00fd769.js" async=""></script><script src="/app-930f8d0e5531caef4be1.js" async=""></script><script src="/webpack-runtime-e2b74d54c3d8621f5789.js" async=""></script></body></html>
+/static/a3ce3e51478e47ec4d8f1371c7914e14/3e75a/profile-pic.jpg 3x" src="/static/a3ce3e51478e47ec4d8f1371c7914e14/c15d6/profile-pic.jpg" alt="Jay Hankins" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p style="margin-bottom:0.35rem"><a href="https://twitter.com/jay_hankins">Jay Hankins</a> is a software engineer living in San Francisco.</p></div><p>© <!-- -->2019<!-- --> Jay Hankins</p><p>Except where otherwise noted, content on this site is licensed under a<!-- --> <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p></footer></div></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-blog-post-js","jsonName":"2019-privacy-and-security-series-part-ii-multi-factor-auth-b40","path":"/2019/privacy-and-security-series-part-ii-multi-factor-auth/"};window.dataPath="936/path---2019-privacy-and-security-series-part-ii-multi-factor-auth-b-40-ecd-XGcxg88y9tORRv4T9dvduCSo";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-930f8d0e5531caef4be1.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-f75d2608a62a3c9d03f3.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-8d4e750e8c62107029d8.js"],"component---src-pages-404-js":["/component---src-pages-404-js-1e9354dba0f0ecaf7feb.js"],"component---src-pages-index-js":["/component---src-pages-index-js-028881deb3d4bac71b47.js"],"pages-manifest":["/pages-manifest-2d9d27ff1e5ce2c384c0.js"]};/*]]>*/</script><script src="/component---src-templates-blog-post-js-8d4e750e8c62107029d8.js" async=""></script><script src="/9-ec02125eda3da4a3e156.js" async=""></script><script src="/1-76229f344d985b642376.js" async=""></script><script src="/styles-d5d842384caac00fd769.js" async=""></script><script src="/app-930f8d0e5531caef4be1.js" async=""></script><script src="/webpack-runtime-3ee95b575745ca4d5f51.js" async=""></script></body></html>
