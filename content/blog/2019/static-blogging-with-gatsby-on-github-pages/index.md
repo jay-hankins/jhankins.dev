@@ -27,15 +27,15 @@ how I did it.
 
 ![terminal showing gatsby creator](terminal.png)
 
-1. Install Gatsby's CLI tool:
+1.  Install Gatsby's CLI tool:
 
         $ yarn global add gatsby-cli
 
-2. Create a new Gatsby project site using the [starter blog template](https://github.com/gatsbyjs/gatsby-starter-blog):
+2.  Create a new Gatsby project site using the [starter blog template](https://github.com/gatsbyjs/gatsby-starter-blog):
 
         $ gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
 
-3. Run the project:
+3.  Run the project:
 
         $ gatsby develop
 
@@ -84,7 +84,7 @@ structure from the old blog's repo to the new one. BUT. It's not enough to just
 move the files over. Unless your frontmatter\* matches exactly, you'll find some
 wonky things.
 
-*Frontmatter is the contents at the top of a post file that contains metadata
+\*Frontmatter is the contents at the top of a post file that contains metadata
 about the post, such as the date it created, the date it was updated, title,
 description, tags, etc.
 
@@ -237,7 +237,7 @@ them when developing. Posts on both are coming soon.
 An RSS feed is also in the works. It works out of the box with this blog
 starter, but I want to make a couple modifications before enabling it on my
 site. I'll also add tag pages and probably per-post themes at some point. And...
-serverless functions? Let's see. I'm excited. JS and the web is dope!
+serverless functions? Let's see. I'm excited. JS and the web are dope!
 
 On the dev side, I need to integrate ESLint and Prettier and VS Code so that
 files get cleaned up as I make edits. I also want to set up CI/CD and stop
