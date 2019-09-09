@@ -13,6 +13,7 @@ const NavLinks = styled.ul`
   list-style: none;
   padding: 0;
   display: flex;
+  margin: 0;
 `;
 
 const NavLi = styled.li`

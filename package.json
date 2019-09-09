@@ -42,6 +42,7 @@
     "react-transition-group": "^4.0.1",
     "react-typography": "^0.16.13",
     "styled-components": "^4.3.2",
+    "typeface-ibm-plex-sans": "0.0.75",
     "typeface-karla": "^0.0.72",
     "typeface-lato": "^0.0.54",
     "typeface-open-sans": "^0.0.54",

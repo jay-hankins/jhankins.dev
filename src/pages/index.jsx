@@ -16,18 +16,28 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="All posts"
-          keywords={[`blog`, `javascript`, `react`, `gatsby`, `purdue`, `mac`]}
+          title="Blog"
+          keywords={[
+            `blog`,
+            `javascript`,
+            `react`,
+            `gatsby`,
+            `purdue`,
+            `mac`,
+            `unix`,
+            `web`,
+            `engineer`,
+          ]}
         />
         <Menu />
-        <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug;
           return (
             <div key={node.fields.slug}>
               <h3
                 style={{
-                  marginBottom: rhythm(1 / 4),
+                  marginBottom: rhythm(1 / 8),
+                  fontWeight: 500,
                 }}
               >
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>

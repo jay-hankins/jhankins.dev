@@ -16,7 +16,7 @@ const systemFontStack = [
   'Noto Color Emoji',
 ];
 const bodyFontStack = [...systemFontStack];
-const headerFontStack = [...systemFontStack];
+const headerFontStack = ['IBM Plex Sans', ...systemFontStack];
 
 Wordpress2016.overrideThemeStyles = () => {
   return {
