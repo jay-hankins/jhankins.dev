@@ -23,6 +23,9 @@ Wordpress2016.overrideThemeStyles = () => {
     'a.gatsby-resp-image-link': {
       boxShadow: `none`,
     },
+    body: {
+      color: '#333',
+    },
     h1: {
       fontFamily: headerFontStack.join(','),
       fontWeight: 600,

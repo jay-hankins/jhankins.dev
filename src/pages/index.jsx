@@ -13,13 +13,6 @@ class BlogIndex extends React.Component {
     const siteTitle = data.site.siteMetadata.title;
     const posts = data.allMarkdownRemark.edges;
 
-    const allowedPosts = posts.filter(
-      post =>
-        process.env.NODE_ENV === 'development' ||
-        post.node.frontmatter.published === null ||
-        post.node.frontmatter.published
-    );
-
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
@@ -28,7 +21,7 @@ class BlogIndex extends React.Component {
         />
         <Menu />
         <Bio />
-        {allowedPosts.map(({ node }) => {
+        {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug;
           return (
             <div key={node.fields.slug}>
@@ -60,7 +53,13 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {
+        frontmatter: { published: { ne: false } }
+        fileAbsolutePath: { glob: "**/blog/**/**.md" }
+      }
+    ) {
       edges {
         node {
           excerpt(pruneLength: 165)

@@ -2,36 +2,51 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import { rhythm } from '../utils/typography';
+import styled from 'styled-components';
 
-const links = [
-  { title: 'Resume', path: '/resume.pdf', type: 'a' },
+const linksObj = [
   { title: 'About', path: '/about' },
   { title: 'Contact', path: '/contact' },
 ];
 
+const NavLinks = styled.ul`
+  list-style: none;
+  padding: 0;
+  display: flex;
+`;
+
+const NavLi = styled.li`
+  color: red;
+  :not(:last-child) {
+    margin-right: 15px;
+  }
+`;
+
+const NavA = styled.a`
+  color: #555;
+  box-shadow: none;
+`;
+
+const NavLink = styled(Link)`
+  color: #555;
+  box-shadow: none;
+`;
+
 const Menu = () => (
-  <nav className="menu">
-    <ul style={{ listStyle: 'none' }} id="menu" className="menu">
-      {links.map(link =>
+  <nav>
+    <NavLinks>
+      {linksObj.map(link =>
         link.type === 'a' ? (
-          <li className="navItem">
-            <a href={link.path}>{link.title}</a>
-          </li>
+          <NavLi>
+            <NavA href={link.path}>{link.title}</NavA>
+          </NavLi>
         ) : (
-          <li className="navItem">
-            <Link
-              style={{
-                boxShadow: `none`,
-                textDecoration: `none`,
-              }}
-              to={link.path}
-            >
-              {link.title}
-            </Link>
-          </li>
+          <NavLi>
+            <NavLink to={link.path}>{link.title}</NavLink>
+          </NavLi>
         )
       )}
-    </ul>
+    </NavLinks>
   </nav>
 );
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import { rhythm, scale } from '../utils/typography';
+import { rhythm } from '../utils/typography';
 import './layout.css';
 import ThemeContext from '../context/ThemeContext';
 import standby from '../../content/assets/standby.png';
@@ -14,55 +14,36 @@ class Layout extends React.Component {
     const rootPath = `${__PATH_PREFIX__}/`;
     let header;
 
-    if (location.pathname === rootPath) {
-      header = (
-        <h1
+    header = (
+      <h3
+        style={{
+          marginTop: 0,
+        }}
+      >
+        <Link
           style={{
-            // ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
+            boxShadow: `none`,
+            textDecoration: `none`,
+            color: `inherit`,
           }}
+          to={`/`}
         >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
-        </h1>
-      );
-    } else {
-      header = (
-        <h3
-          style={{
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
-        </h3>
-      );
-    }
+          {title}
+        </Link>
+      </h3>
+    );
+
     return (
       <ThemeContext.Consumer>
         {theme => (
-          <div className={theme.darkMode ? 'dark-mode' : 'light-mode'}>
+          <div
+            className={theme.darkMode ? 'dark-mode' : 'light-mode'}
+            style={{ display: 'flex' }}
+          >
             <div
               style={{
-                marginLeft: `auto`,
-                marginRight: `auto`,
+                marginLeft: '10%',
+                marginRight: '10%',
                 maxWidth: rhythm(24),
                 padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
               }}

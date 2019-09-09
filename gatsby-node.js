@@ -10,6 +10,7 @@ exports.createPages = ({ graphql, actions }) => {
       {
         allMarkdownRemark(
           sort: { fields: [frontmatter___date], order: DESC }
+          filter: { frontmatter: { published: { ne: false } } }
           limit: 1000
         ) {
           edges {
@@ -34,17 +35,10 @@ exports.createPages = ({ graphql, actions }) => {
     // Create blog posts pages.
     const posts = result.data.allMarkdownRemark.edges;
 
-    const allowedPosts = posts.filter(
-      post =>
-        process.env.NODE_ENV === 'development' ||
-        post.node.frontmatter.published === null ||
-        post.node.frontmatter.published
-    );
-
-    allowedPosts.forEach((post, index) => {
+    posts.forEach((post, index) => {
       const previous =
-        index === allowedPosts.length - 1 ? null : allowedPosts[index + 1].node;
-      const next = index === 0 ? null : allowedPosts[index - 1].node;
+        index === posts.length - 1 ? null : posts[index + 1].node;
+      const next = index === 0 ? null : posts[index - 1].node;
 
       createPage({
         path: post.node.fields.slug,
