@@ -4,13 +4,17 @@ const { createFilePath } = require(`gatsby-source-filesystem`);
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
   const blogPost = path.resolve(`./src/templates/blog-post.js`);
+  const journalPost = path.resolve(`./src/templates/journal-post.js`);
 
   return graphql(
     `
       {
         allMarkdownRemark(
           sort: { fields: [frontmatter___date], order: DESC }
-          filter: { frontmatter: { published: { ne: false } } }
+          filter: {
+            fileAbsolutePath: { glob: "**/blog/**/**.md" }
+            fields: { draft: { eq: false } }
+          }
           limit: 1000
         ) {
           edges {
@@ -20,7 +24,25 @@ exports.createPages = ({ graphql, actions }) => {
               }
               frontmatter {
                 title
-                published
+              }
+            }
+          }
+        }
+        journal: allMarkdownRemark(
+          sort: { fields: [frontmatter___date], order: DESC }
+          filter: {
+            fileAbsolutePath: { glob: "**/journal/**/**.md" }
+            fields: { draft: { eq: false } }
+          }
+          limit: 1000
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
               }
             }
           }
@@ -45,6 +67,24 @@ exports.createPages = ({ graphql, actions }) => {
         component: blogPost,
         context: {
           slug: post.node.fields.slug,
+          previous,
+          next,
+        },
+      });
+    });
+
+    const journals = result.data.journal.edges;
+
+    journals.forEach((journal, index) => {
+      const previous =
+        index === journals.length - 1 ? null : journals[index + 1].node;
+      const next = index === 0 ? null : journals[index - 1].node;
+
+      createPage({
+        path: journal.node.fields.slug,
+        component: journalPost,
+        context: {
+          slug: journal.node.fields.slug,
           previous,
           next,
         },

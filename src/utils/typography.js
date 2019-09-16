@@ -2,6 +2,7 @@ import Typography from 'typography';
 import Wordpress2016 from 'typography-theme-wordpress-2016';
 
 const systemFontStack = [
+  'IBM Plex Sans',
   '-apple-system',
   'BlinkMacSystemFont',
   'Segoe UI',
@@ -16,7 +17,7 @@ const systemFontStack = [
   'Noto Color Emoji',
 ];
 const bodyFontStack = [...systemFontStack];
-const headerFontStack = ['IBM Plex Sans', ...systemFontStack];
+const headerFontStack = [...systemFontStack];
 
 Wordpress2016.overrideThemeStyles = () => {
   return {
@@ -41,6 +42,10 @@ Wordpress2016.overrideThemeStyles = () => {
     },
     p: {
       // letterSpacing: '-0.2pt',
+    },
+    blockquote: {
+      color: 'unset',
+      borderColor: 'unset',
     },
   };
 };

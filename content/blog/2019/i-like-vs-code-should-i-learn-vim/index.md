@@ -1,7 +1,6 @@
 ---
 title: '"I like VS Code. Should I Learn Vim?"'
 date: '2019-01-27T21:56:00.007Z'
-published: true
 ---
 
 Sindre Sorhus maintains an [ama repo](https://github.com/sindresorhus/ama/) where someone asked him [this](https://github.com/sindresorhus/ama/issues/568) question:

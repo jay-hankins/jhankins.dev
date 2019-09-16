@@ -127,6 +127,21 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: 'gatsby-plugin-draft',
+      options: {
+        /**
+         * moment-timezone
+         * Default is 'UTC'
+         **/
+        timezone: 'America/Los_Angeles',
+        /**
+         * publish draft posts
+         * Default is 'false'
+         **/
+        publishDraft: process.env.NODE_ENV !== 'production',
+      },
+    },
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

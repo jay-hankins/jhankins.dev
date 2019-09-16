@@ -32,3 +32,4 @@ function signFolder(folderPath: string): void {
 }
 
 signFolder('content/blog');
+signFolder('content/journal');

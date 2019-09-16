@@ -18,10 +18,14 @@ class About extends React.Component {
           Tweet me{' '}
           <a href={`https://twitter.com/${social.twitter}`}>@jay_hankins</a>!
         </p>
-        <p>
-          I'm a software engineer, and parts of this site, like the about and
-          contact pages, are a work in progress.
-        </p>
+        <p>Or use the form below to send me a message.</p>
+        <div
+          dangerouslySetInnerHTML={{
+            __html: `
+        <iframe class="airtable-embed" src="https://airtable.com/embed/shrMKOv0y1HYwim1d?backgroundColor=purple" frameborder="0" onmousewheel="" width="100%" height="825" style="background: transparent; border: 1px solid #ccc;"></iframe>
+  `,
+          }}
+        />
       </Layout>
     );
   }

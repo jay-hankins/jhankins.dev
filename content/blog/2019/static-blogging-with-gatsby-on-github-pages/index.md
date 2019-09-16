@@ -1,7 +1,6 @@
 ---
 title: 'Static Blogging with Gatsby on GitHub Pages'
 date: '2019-01-22T09:00:00.007Z'
-published: true
 ---
 
 For a while now I've been wanting to migrate my blog from [Jekyll](https://jekyllrb.com/) to something JS-based. This is for a few different reasons:

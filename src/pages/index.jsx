@@ -29,7 +29,7 @@ class BlogIndex extends React.Component {
             `engineer`,
           ]}
         />
-        <Menu />
+        <h2>Blog</h2>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug;
           return (
@@ -66,7 +66,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
-        frontmatter: { published: { ne: false } }
+        fields: { draft: { eq: false } }
         fileAbsolutePath: { glob: "**/blog/**/**.md" }
       }
     ) {
@@ -79,7 +79,6 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
-            published
             description
           }
         }

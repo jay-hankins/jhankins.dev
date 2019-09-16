@@ -7,6 +7,7 @@ import styled from 'styled-components';
 const linksObj = [
   { title: 'About', path: '/about' },
   { title: 'Contact', path: '/contact' },
+  { title: 'Journal', path: '/journal' },
 ];
 
 const NavLinks = styled.ul`
@@ -38,11 +39,11 @@ const Menu = () => (
     <NavLinks>
       {linksObj.map(link =>
         link.type === 'a' ? (
-          <NavLi>
+          <NavLi key={link.path}>
             <NavA href={link.path}>{link.title}</NavA>
           </NavLi>
         ) : (
-          <NavLi>
+          <NavLi key={link.path}>
             <NavLink to={link.path}>{link.title}</NavLink>
           </NavLi>
         )

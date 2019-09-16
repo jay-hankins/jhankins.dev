@@ -46,7 +46,7 @@ class BlogPostTemplate extends React.Component {
                   width={1.5}
                   margin={0}
                   background={theme.darkMode ? '#2a2b2d' : '#ffffff'}
-                  lineColor={!theme.darkMode ? '#2a2b2d' : '#F2A300'}
+                  lineColor={!theme.darkMode ? '#2a2b2d' : '#ffffff'}
                 />
               </div>
             </ReactCSSTransitionReplace>
@@ -59,7 +59,6 @@ class BlogPostTemplate extends React.Component {
           }}
         />
         <PGPInfo slug={post.fields.slug} />
-        {/* <Bio /> */}
 
         <ul
           style={{
@@ -110,7 +109,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        published
       }
     }
   }
