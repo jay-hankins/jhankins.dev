@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jhankins.dev]]></title><description><![CDATA[Jay Hankins is a software engineer and this is his blog.]]></description><link>https://jayhankins.me</link><generator>RSS for Node</generator><lastBuildDate>Mon, 09 Sep 2019 03:39:37 GMT</lastBuildDate><item><title><![CDATA[Privacy and Security Series, Part III: Going Farther with MFA and Audits]]></title><description><![CDATA[In the last Privacy and Security Series post, we talked about the
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jhankins.dev]]></title><description><![CDATA[Jay Hankins is a software engineer and this is his blog.]]></description><link>https://jayhankins.me</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 16 Sep 2019 05:06:16 GMT</lastBuildDate><item><title><![CDATA[DIY Marble Qi Charger]]></title><description><![CDATA[Have you seen the marble-looking Qi chargers? I see them advertised on Instagram
+all the time.]]></description><link>https://jayhankins.me/diy-marble-qi-charger/</link><guid isPermaLink="false">https://jayhankins.me/diy-marble-qi-charger/</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;p&gt;Have you seen the marble-looking Qi chargers? I see them advertised on Instagram
+all the time.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/96546384affff4948aceee1c72be2690/3e801/qi-charger-1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAADBUlEQVQ4y52US0tbQRTHr/EZm0RNNPgKxrcBI2JijUreNRqjXYirNFJ84KYNCH4CiwuLG2tRsUvXgriyWTSuXNSd4MJv4MbiwiKSqP/OOWGuMSpIB07m3ntmfjmPmb+CrHF/f6/O0rK/v2YouRtvb2+RTqdxd3fHz2RyjXyXRmuyA1CBNMj5UiSv9dGsyI9yJBIJLC4uYn5+Hqurqzg5OVF9x7+P8WN7G9ubW0j8TODy8vIJVJGw6+trTE5OQlEUaDQatLS0QKfTwVhRgW9ra/iytATP4CB8bjf8bg/8Xi8+xqZwdHT0CKoCY7EYw8rKylBTU4Pa2loYjUYYDAa8KS2FvbMTrr4+jIbDGB0ZQSQ8ioDPj9C7IRweHjKD6sop7+/vM6yhoQFmsxmlAlBQUJCJUEDz8vJQX1eH5uZmDIooh4dCGBagUCgEr4j2/fg4Lv5cZFKmH5lqa2sriouLkZ+fj8LCQgabTCb+ZhJgS309rwmKyPx+P4LBIMIi4t7eXuzu7maANzc36BTpELBPpFRdXY2SkhIUFRVxhOXl5dAKsF6nh62jA01NTZiYmEAkEoHf50MgEIBPzN/X1zPAv1dXsIpUCdghNthsNq4jQSldio6eNSLt7u5utLe3c0aUrk80xiuMol1ZWckA06kUHD09ag27urqg1+s5ZQJSLQmoFfZWpEZrxsbGGOIWHZe2JY6SWsOZmRkGEoy6S8/UCAZptfxeVVnJQPoTl8vF1t/fj4GBAXg8HhwcHDwAk8kkb6IGWK1Wjo6ANJORz+FwsK+xsZFrTY0gmNPpRDQaxfn5+eODPTs7q0IpTTIJM4gS2O12PlJOh5NhEkrAvb099XCrQBKEhYUFviUEkWauqsTmxgamp6dhsVjQ1tbGRjeJYDs7O48E4sldTiZ/If75E6Y+RPFVdO7s7Ez10QWIx+OYm5vD8vIyTk9Pn0jfg9qImaJ8bkg5k3+eEifjRbXJfmENFJvTqXRmFiZ1L1sPpVbmwtQu52pdrmK/5HtO1ZXnZP9/jcY/dFdcaotqXyQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Qi charger&quot;
+        title=&quot;Qi charger&quot;
+        src=&quot;/static/96546384affff4948aceee1c72be2690/b9e4f/qi-charger-1.png&quot;
+        srcset=&quot;/static/96546384affff4948aceee1c72be2690/cf440/qi-charger-1.png 148w,
+/static/96546384affff4948aceee1c72be2690/d2d38/qi-charger-1.png 295w,
+/static/96546384affff4948aceee1c72be2690/b9e4f/qi-charger-1.png 590w,
+/static/96546384affff4948aceee1c72be2690/3e801/qi-charger-1.png 679w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Vintage Wallpapers are the Best Wallpapers]]></title><description><![CDATA[Time and time again, my favorite wallpapers (computer backgrounds) are the OEM
+ones (the ones that shipped with the OSes originally). Now I…]]></description><link>https://jayhankins.me/vintage-wallpapers-best-wallpapers/</link><guid isPermaLink="false">https://jayhankins.me/vintage-wallpapers-best-wallpapers/</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;p&gt;Time and time again, my favorite wallpapers (computer backgrounds) are the OEM
+ones (the ones that shipped with the OSes originally).&lt;/p&gt;
+&lt;p&gt;Now I am going to share some pictures of my favorite vintage wallpapers.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d0685ce6c69f82fc61669a61f5c87950/0775d/os-x.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACxklEQVQoz12S+1NMcRiHT7lfatF1RCp2a0+7q7Y0roV1KbKxSm2TTYokm5hhMmKGVKYaoZU20wU7Co1h+KExFGal2hj+osd7jjFj/PDMe873zPuZ5/2+R9l4MoD91AjZdS/Y0jBGdlU3FncbmZ4Ocmp9bD/Xy7b6e+wQ8rw9OC4+YN/lhxRc8eNqCdDw/AcXxn4JP2l8+RPFcnyQjKrHZNWOstk7SlymAyVqPQsSrCxPsrEwQWVevEk/U6I2oKySukpqRCIR5lxOD33FO/od78gc9c/mUNLd/dgqh3XLnDMBYjP3siTZzsK1GUSmZLEsOYuIlGyWJsnZGhtKbBphcWY92GB1UD0QpC4wR93TELVPZiWw1I+l/BE2zxCbap8SLYGL10ljnCqNaYRLc7jUsNhUlBgNsdWeVyYTqeZR6f9CzfAsNUPTVAuK2XWf9BIftooB7CcHicrYw3wxCYtX/5hoiNW/aN+UKCORMnJ5zySe/mk8/ikdJdXZhXq0B5tYWkp9xFh3sWC1yuJEO4skeJ7W/F9geHw6SrQJgzkPj+8zpwZk3MEZzgyHUEyHOjEfuYtaLKbF94ix7Wb+ammI0cz+2pl127/GYXGqviCDjFzjD3J6METVo29U9E1pgR0YC9sltFu4wwrzdrkvbZspQrJ+VzqGdSiRiX/qCnlfniDLy6GwbZzDXZ8o6pyQOolizG/BeLCN1KIuzEWdrM09S8K2apJ217O+oBGT8xIbXU1sLr/GJiHT3UxGWTPWY1ewV7ZK4HucHRPCRz1U2bD/BqYDbTqph9r1sW3uPvmxh9hSP0JB8xt2Nr0i/+pbSto/UH7nMxW+GTwPQxzvC+HuCVLmC1L6QOgNaoa3MBW0Ysy/ielgK2nO26iubtKP3SfnRD+uxj6yzvvYWtOLw+snt2GYvKbXOK6/Y3/LOIW3P+AUM6eMq/EbAmWqeEiErhwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;OS X Leopard wallpaper&quot;
+        title=&quot;OS X Leopard wallpaper&quot;
+        src=&quot;/static/d0685ce6c69f82fc61669a61f5c87950/b9e4f/os-x.png&quot;
+        srcset=&quot;/static/d0685ce6c69f82fc61669a61f5c87950/cf440/os-x.png 148w,
+/static/d0685ce6c69f82fc61669a61f5c87950/d2d38/os-x.png 295w,
+/static/d0685ce6c69f82fc61669a61f5c87950/b9e4f/os-x.png 590w,
+/static/d0685ce6c69f82fc61669a61f5c87950/f9b6a/os-x.png 885w,
+/static/d0685ce6c69f82fc61669a61f5c87950/2d849/os-x.png 1180w,
+/static/d0685ce6c69f82fc61669a61f5c87950/0775d/os-x.png 5120w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Best Way to Make a Bed]]></title><description><![CDATA[I have some opinions about the best way to fold a bed. I find triple sheeting to be the best (most versatile, stylish) way to make up a
+bed…]]></description><link>https://jayhankins.me/the-right-way-to-fold-a-bed/</link><guid isPermaLink="false">https://jayhankins.me/the-right-way-to-fold-a-bed/</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;p&gt;I have some opinions about the best way to fold a bed.&lt;/p&gt;
+&lt;p&gt;I find triple sheeting to be the best (most versatile, stylish) way to make up a
+bed. Note for readers, I am an American, and bed making, like many other things,
+has some differences across world cultures. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why a Journal?]]></title><description><![CDATA[For the non-techy things.]]></description><link>https://jayhankins.me/why-a-journal/</link><guid isPermaLink="false">https://jayhankins.me/why-a-journal/</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;p&gt;For the non-techy things.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Privacy and Security Series, Part III: Going Farther with MFA and Audits]]></title><description><![CDATA[In the last Privacy and Security Series post, we talked about the
 importance of multi-factor authentication (MFA), also known as two-factor…]]></description><link>https://jayhankins.me/2019/privacy-and-security-series-part-iii-going-farther/</link><guid isPermaLink="false">https://jayhankins.me/2019/privacy-and-security-series-part-iii-going-farther/</guid><pubDate>Tue, 03 Sep 2019 08:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In the last Privacy and Security Series &lt;a href=&quot;../privacy-and-security-series-part-ii-multi-factor-auth/&quot;&gt;post&lt;/a&gt;, we talked about the
 importance of multi-factor authentication (MFA), also known as two-factor
 authentication (2FA). Enabling MFA is a giant leap forward when it comes to
@@ -143,7 +212,6 @@ Checkup”.&lt;/p&gt;
 /static/773f612605658c2efe5dfe6beff29e51/b9e4f/Untitled-326ccf91-c1f7-476c-b6bd-5aaa9a865aec.png 590w,
 /static/773f612605658c2efe5dfe6beff29e51/f9b6a/Untitled-326ccf91-c1f7-476c-b6bd-5aaa9a865aec.png 885w,
 /static/773f612605658c2efe5dfe6beff29e51/2d849/Untitled-326ccf91-c1f7-476c-b6bd-5aaa9a865aec.png 1180w,
-/static/773f612605658c2efe5dfe6beff29e51/bbefa/Untitled-326ccf91-c1f7-476c-b6bd-5aaa9a865aec.png 1770w,
 /static/773f612605658c2efe5dfe6beff29e51/f3580/Untitled-326ccf91-c1f7-476c-b6bd-5aaa9a865aec.png 2192w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         loading=&quot;lazy&quot;
@@ -211,7 +279,7 @@ single best-selling hardware token for 2FA. &lt;sup id=&quot;fnref-1&quot;&gt;&l
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 55.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACEElEQVQoz52T7UtTURzH92/1riiC3kTRw6tVpERBL3rniyACgyB6gkJyPm0glThz7sFZ0oZupnNe9d7dbcrcVAjKuc09ZNvu3dync7fEGEEPX/ie84PD73t+5/v7HRMCjUZDEA7jdrTO/0wDpvYEA3qtRqlUarKqafwtjHxTu1gunyekRJmclXD7QqzE4nz+skN2r8Budo90Nkc6k2Mnk2VnN8tXg+kMmqYfVXiISlUjEF7hef8kFzr6OXbmMd3PHMwvKwSXZLFHCMkxFg2uxpsMy2vMSyrJze2WoCaelEwkSCTWia3FeTL0nvHL11E7rhA7d5auk7cYnVnFP7/AoMND78g7+uwOBuwuBu1ObGNOfHNLqPEEBwd1TLlshmhEYX0tin/Gx827b3l4wsykuZOJS1fputiFK6gIC4JYXF4eDQ3TOzaONxzC6p7CMuHG4wsiq+vUajqmuli2NjdIpTZIbm3RM+Tl1DULx80WTndaOX+jn+mAREBS8AYW8S8uM+ye5f4rDy97XjPS04fj4wKKGqderx95aDRF12tIEZUX1inuPHBy+54d26iPT9Jq09s5SRaeRRn1Bnlq/cAbm6h0wIZzOkgytdny8KjLLeFypcLG9jaSHBGmy0iKSkoYXigWBIvkC0XK5X3qeoWqrvFdjNj+txL6z/H67Rw2hctlCkayuOCf5vBXwfb4f37KD8kKEzTsqORFAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 55.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACDklEQVQoz52T7UuTURjG92/1rSiCvkTRy6dVpERBH/q2D0EEBkH0BoXknLqBVOLMOfdiSRPdTOd8dHv2ztx0EJS6zb1km8+zuV/n2ZLFCHq54DrnhsN9nftc9310CDSbTUE4irvRPv8zNei6EzSo9TqVSqXFA0Xhb6Hl67rFCsUifjmKa0HC4fGzHovz+cs2+b0Su/k9dvIFdnIFtnN5tnfzfNW4k0NR1E6FR6gdKHgD6zw3ubjQY+LYmcf0PbOxtCbjWw2JPYw/FGNFYzDeYiCUYEmKkN7MtgUV8aR0KkUqlSSWiPNk5D2Tl68T6blC7NxZDCdvMT4fZG5pmWGbk4GxdwxabQxZpxm22rFM2PEsrhKJpzg8bKAr5HNEwzLJRJS5eQ83777l4Qk9Ln0vU5euYrhoYNonCwt8GKfdPBoZZWBiEnfAj9kxg3HKgdPjQ44kqddVdA2xbG1ukMlskN7aon/EzalrRo7rjZzuNXP+holZr4RXknF7V5hbWWPUscD9V05e9r9mrH8Q28dlIRin0Wh0PNSaoqp1pHCEF+YZ7jywc/ueFcu4h09SsOXtohQSnkUZd/t4av7AG4uodMiCfdZHOrPZ9rDT5bZwtVZjI5tFCoWF6SEkOUJGGF4qlwTLFEtlqtV9GmqNA1Xhuxix/W8V1J/j9ds5bAlXq5S0ZHHBP83hr4Ld8f/8lB/KpxM1kUTYFQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -235,7 +303,6 @@ single best-selling hardware token for 2FA. &lt;sup id=&quot;fnref-1&quot;&gt;&l
 /static/61000de8b39226571df58d62a7062598/b9e4f/2019-05-25-17-17-09.png 590w,
 /static/61000de8b39226571df58d62a7062598/f9b6a/2019-05-25-17-17-09.png 885w,
 /static/61000de8b39226571df58d62a7062598/2d849/2019-05-25-17-17-09.png 1180w,
-/static/61000de8b39226571df58d62a7062598/bbefa/2019-05-25-17-17-09.png 1770w,
 /static/61000de8b39226571df58d62a7062598/f6ab6/2019-05-25-17-17-09.png 2520w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; loading=&quot;lazy&quot;&gt;
   &lt;/a&gt;
     &lt;/span&gt;
@@ -361,7 +428,6 @@ and enabling 2FA for all that you have.&lt;/p&gt;
 /static/3933cc82b9a3aa452ce5a82c4732f33a/b9e4f/2019-05-25-19-08-57.png 590w,
 /static/3933cc82b9a3aa452ce5a82c4732f33a/f9b6a/2019-05-25-19-08-57.png 885w,
 /static/3933cc82b9a3aa452ce5a82c4732f33a/2d849/2019-05-25-19-08-57.png 1180w,
-/static/3933cc82b9a3aa452ce5a82c4732f33a/bbefa/2019-05-25-19-08-57.png 1770w,
 /static/3933cc82b9a3aa452ce5a82c4732f33a/d84c6/2019-05-25-19-08-57.png 2300w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         loading=&quot;lazy&quot;
@@ -512,7 +578,7 @@ two parts. The first part is a lightweight Node script which locates all the
 Markdown files in the &lt;code class=&quot;language-text&quot;&gt;content/blog/&lt;/code&gt; directory and calls out for &lt;code class=&quot;language-text&quot;&gt;gpg&lt;/code&gt; to sign
 each one.&lt;/p&gt;
 &lt;video controls alt=&quot;screencast&quot;&gt;
-  &lt;source src=&quot;/signing-04f1d4a3b3233b03e3c3acfc6dfd6cb1.mp4&quot; type=&quot;video/mp4&quot;&gt;
+  &lt;source src=&quot;/04f1d4a3b3233b03e3c3acfc6dfd6cb1/signing.mp4&quot; type=&quot;video/mp4&quot;&gt;
 &lt;/video&gt;
 &lt;h3&gt;Build-end / Backend&lt;/h3&gt;
 &lt;p&gt;Prerequisite assumptions:&lt;/p&gt;
@@ -523,24 +589,23 @@ each one.&lt;/p&gt;
 &lt;/ol&gt;
 &lt;p&gt;The Node script looks like this— It’s actually my first little TypeScript
 endeavor.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-highlight&quot;&gt;
-        &lt;pre class=&quot;language-typescript&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// utils/src/sign-posts.ts&lt;/span&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;typescript&quot;&gt;&lt;pre class=&quot;language-typescript&quot;&gt;&lt;code class=&quot;language-typescript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// utils/src/sign-posts.ts&lt;/span&gt;
 
 &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; fs &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;file-system&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; spawn &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;child_process&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
 &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;spawnGPG&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;filePath&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;string&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token builtin&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`Signing &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;filePath&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token builtin&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Signing &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;filePath&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
   &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; options&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;--armor&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;--batch&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;--sign&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; childProc &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;spawn&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;gpg&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;options&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; filePath&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
   childProc&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;exit&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    code &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`GPG error code: &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;code&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    code &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;GPG error code: &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;code&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
 &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;signOrSkipFile&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;filePath&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;string&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  fs&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;access&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;filePath&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;.asc`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; fs&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;constants&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;F_OK&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;err&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  fs&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;access&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;filePath&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;.asc&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; fs&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;constants&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;F_OK&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;err&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; err&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;code &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;ENOENT&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
       &lt;span class=&quot;token function&quot;&gt;spawnGPG&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;filePath&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
@@ -559,8 +624,7 @@ endeavor.&lt;/p&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-&lt;span class=&quot;token function&quot;&gt;signFolder&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;content/blog&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-        &lt;/div&gt;&lt;/p&gt;
+&lt;span class=&quot;token function&quot;&gt;signFolder&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;content/blog&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Basically, the &lt;code class=&quot;language-text&quot;&gt;signFolder()&lt;/code&gt; function tries to sign every &lt;code class=&quot;language-text&quot;&gt;.md&lt;/code&gt; file in the
 &lt;code class=&quot;language-text&quot;&gt;content/blog/&lt;/code&gt; directory. It tries to locate &lt;code class=&quot;language-text&quot;&gt;*.md.asc&lt;/code&gt; files for every
 corresponding post. If a post isn’t signed, it calls out to &lt;code class=&quot;language-text&quot;&gt;gpg&lt;/code&gt; to sign it.&lt;/p&gt;
@@ -574,8 +638,7 @@ signatures there as well.&lt;/p&gt;
 &lt;p&gt;The newly-minted &lt;code class=&quot;language-text&quot;&gt;PGPInfo&lt;/code&gt; component uses the &lt;code class=&quot;language-text&quot;&gt;slug&lt;/code&gt; field generated by Gatsby
 to determine the correct link for the post’s signature and the source used to
 generate it.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-highlight&quot;&gt;
-        &lt;pre class=&quot;language-jsx&quot;&gt;&lt;code&gt;&lt;span class=&quot;token comment&quot;&gt;// PGPInfo.jsx&lt;/span&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// PGPInfo.jsx&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
 &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; githubPrefixUrl &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
@@ -586,10 +649,10 @@ generate it.&lt;/p&gt;
     &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;PGPInfo&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
       &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;ul&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
         &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-          &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;githubPrefixUrl&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;slug&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;index.md`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;View Post Source&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+          &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;githubPrefixUrl&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;slug&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;index.md&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;View Post Source&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
         &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
         &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-          &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;githubPrefixUrl&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;slug&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;index.md.asc`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+          &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;githubPrefixUrl&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;slug&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;index.md.asc&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
             View PGP Signature
           &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
         &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
@@ -598,8 +661,7 @@ generate it.&lt;/p&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; PGPInfo&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-        &lt;/div&gt;&lt;/p&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; PGPInfo&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;I put the &lt;code class=&quot;language-text&quot;&gt;PGPInfo&lt;/code&gt; component into the &lt;code class=&quot;language-text&quot;&gt;blog-post.js&lt;/code&gt; file since I’m only
 rendering it on posts at the moment.&lt;/p&gt;
 &lt;p&gt;Be sure to check out this
@@ -620,7 +682,7 @@ details.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 24.28571428571429%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAFABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAEEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdaQrg//xAAYEAEAAwEAAAAAAAAAAAAAAAABAAIREv/aAAgBAQABBQLSdEum/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAVEAEBAAAAAAAAAAAAAAAAAAAAMv/aAAgBAQAGPwKUpf/EABgQAAIDAAAAAAAAAAAAAAAAAABhESEx/9oACAEBAAE/IVBAjaYf/9oADAMBAAIAAwAAABCDz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAAEFAQEAAAAAAAAAAAAAAAEAEVFh0YGR/9oACAEBAAE/EC/fAxS+YxHMA4k0v//Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 24.28571428571429%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAFABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAEEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdaQrg//xAAYEAEAAwEAAAAAAAAAAAAAAAABAAMREv/aAAgBAQABBQLSdEsTf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABUQAQEAAAAAAAAAAAAAAAAAAAAy/9oACAEBAAY/ApSl/8QAGBAAAgMAAAAAAAAAAAAAAAAAAGERITH/2gAIAQEAAT8hUECFph//2gAMAwEAAgADAAAAEIPP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxAAAgIDAQAAAAAAAAAAAAAAAAER0VFhgfD/2gAIAQEAAT8Qc9dHnVDUCOMvR//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -677,7 +739,6 @@ of the post (its source file).&lt;/p&gt;
 /static/3c712a8dd771cfb8fcbc4f579214fcff/b9e4f/keybase-verify.png 590w,
 /static/3c712a8dd771cfb8fcbc4f579214fcff/f9b6a/keybase-verify.png 885w,
 /static/3c712a8dd771cfb8fcbc4f579214fcff/2d849/keybase-verify.png 1180w,
-/static/3c712a8dd771cfb8fcbc4f579214fcff/bbefa/keybase-verify.png 1770w,
 /static/3c712a8dd771cfb8fcbc4f579214fcff/fab03/keybase-verify.png 2434w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         loading=&quot;lazy&quot;
@@ -767,7 +828,7 @@ yak-shave this into a plugin? I’ll be your first customer! 😉&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Next Time&lt;/h2&gt;
 &lt;p&gt;Having secure passwords is just one part of a sound internet security strategy. Stay tuned for Part 2 of this series, where we’ll talk about the next tool in your arsenal: two-factor authentication.&lt;/p&gt;
-&lt;p&gt;Thanks for reading!&lt;/p&gt;</content:encoded></item><item><title><![CDATA["I like VS Code. Should I Learn Vim?"]]></title><description><![CDATA[Sindre Sorhus maintains an ama repo where someone asked him this question:I know some people (even the young ones) still swear by Vim. I am…]]></description><link>https://jayhankins.me/2019/i-like-vs-code-should-i-learn-vim/</link><guid isPermaLink="false">https://jayhankins.me/2019/i-like-vs-code-should-i-learn-vim/</guid><pubDate>Sun, 27 Jan 2019 21:56:00 GMT</pubDate><content:encoded>&lt;p&gt;Sindre Sorhus maintains an &lt;a href=&quot;https://github.com/sindresorhus/ama/&quot;&gt;ama repo&lt;/a&gt; where someone asked him &lt;a href=&quot;https://github.com/sindresorhus/ama/issues/568&quot;&gt;this&lt;/a&gt; question:&lt;/p&gt;
+&lt;p&gt;Thanks for reading!&lt;/p&gt;</content:encoded></item><item><title><![CDATA["I like VS Code. Should I Learn Vim?"]]></title><description><![CDATA[Sindre Sorhus maintains an ama repo where someone asked him this question: I know some people (even the young ones) still swear by Vim. I am…]]></description><link>https://jayhankins.me/2019/i-like-vs-code-should-i-learn-vim/</link><guid isPermaLink="false">https://jayhankins.me/2019/i-like-vs-code-should-i-learn-vim/</guid><pubDate>Sun, 27 Jan 2019 21:56:00 GMT</pubDate><content:encoded>&lt;p&gt;Sindre Sorhus maintains an &lt;a href=&quot;https://github.com/sindresorhus/ama/&quot;&gt;ama repo&lt;/a&gt; where someone asked him &lt;a href=&quot;https://github.com/sindresorhus/ama/issues/568&quot;&gt;this&lt;/a&gt; question:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;I know some people (even the young ones) still swear by Vim. I am not sure if its worth knowing vim as well?&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -802,7 +863,7 @@ yak-shave this into a plugin? I’ll be your first customer! 😉&lt;/p&gt;
 &lt;p&gt;* VS Code is just a Javascript application. It’s all just code! ¯\&lt;em&gt;(ツ)&lt;/em&gt;/¯ Its editor can and has been shipped in other web apps, so you could potentially find a cloud editor that had similar capabilities (Cloud9? I’m not interested in this because I find the UX of a web editor quite poor, so I don’t really know) today, but that isn’t quite the same. In the future, it’s possible that we’d see VS Code on the iPad or … VR headsets … Tesla automobiles? Who knows. Anything is possible. Maybe Vim will come to those platforms too 😎&lt;/p&gt;
 &lt;h2&gt;Over time, you’ll probably get curious enough to try Vim anyway&lt;/h2&gt;
 &lt;p&gt;This is just what I’ve seen in myself and my peers! 👨‍💻 👩‍💻&lt;/p&gt;
-&lt;p&gt;You asked if it’s “worth knowing Vim”, and I think the answer is yes, but perhaps you shouldn’t fret about the learning aspect as much as just using it when you can!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Static Blogging with Gatsby on GitHub Pages]]></title><description><![CDATA[For a while now I’ve been wanting to migrate my blog from Jekyll to something JS-based. This is for a few different reasons:I’m much more…]]></description><link>https://jayhankins.me/2019/static-blogging-with-gatsby-on-github-pages/</link><guid isPermaLink="false">https://jayhankins.me/2019/static-blogging-with-gatsby-on-github-pages/</guid><pubDate>Tue, 22 Jan 2019 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;For a while now I’ve been wanting to migrate my blog from &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; to something JS-based. This is for a few different reasons:&lt;/p&gt;
+&lt;p&gt;You asked if it’s “worth knowing Vim”, and I think the answer is yes, but perhaps you shouldn’t fret about the learning aspect as much as just using it when you can!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Static Blogging with Gatsby on GitHub Pages]]></title><description><![CDATA[For a while now I’ve been wanting to migrate my blog from Jekyll to something JS-based. This is for a few different reasons: I’m much more…]]></description><link>https://jayhankins.me/2019/static-blogging-with-gatsby-on-github-pages/</link><guid isPermaLink="false">https://jayhankins.me/2019/static-blogging-with-gatsby-on-github-pages/</guid><pubDate>Tue, 22 Jan 2019 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;For a while now I’ve been wanting to migrate my blog from &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; to something JS-based. This is for a few different reasons:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;I’m much more comfortable with the JS ecosystem than the Ruby ecosystem. When Jekyll or Ruby breaks, I don’t know how to fix it.&lt;/li&gt;
 &lt;li&gt;Having to troubleshoot and debug those problems discourages me from blogging, and I want to make this a frictionless experience.&lt;/li&gt;
@@ -905,7 +966,6 @@ any old React site.) Here’s how I’ve organized my blog:&lt;/p&gt;
 /static/13f3dfa8aa02f3336af820b517f271a0/b9e4f/Untitled-ae6f7080-cd22-44f7-b896-8105fff0c1f3.png 590w,
 /static/13f3dfa8aa02f3336af820b517f271a0/f9b6a/Untitled-ae6f7080-cd22-44f7-b896-8105fff0c1f3.png 885w,
 /static/13f3dfa8aa02f3336af820b517f271a0/2d849/Untitled-ae6f7080-cd22-44f7-b896-8105fff0c1f3.png 1180w,
-/static/13f3dfa8aa02f3336af820b517f271a0/bbefa/Untitled-ae6f7080-cd22-44f7-b896-8105fff0c1f3.png 1770w,
 /static/13f3dfa8aa02f3336af820b517f271a0/ad63e/Untitled-ae6f7080-cd22-44f7-b896-8105fff0c1f3.png 2160w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         loading=&quot;lazy&quot;
@@ -1092,12 +1152,12 @@ it would be cool to compare those novel approaches to the simple Markdown file
 approach that I know and love. Perhaps in the future, I’ll be able to have my
 Gatsby blog pull right from a &lt;a href=&quot;http://notion.so&quot;&gt;Notion.so&lt;/a&gt; database. (I hope!)&lt;/p&gt;
 &lt;p&gt;That’s about it… hope you enjoyed this quick intro to blogging with Gatsby.
-Reach out on Twitter to discuss more!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Reporting iOS Bugs]]></title><description><![CDATA[Lately I’ve been thinking that instead of just complaining about iOS, maybe I could do something to make it better.I found two bugs in my…]]></description><link>https://jayhankins.me/2018/reporting-ios-bugs/</link><guid isPermaLink="false">https://jayhankins.me/2018/reporting-ios-bugs/</guid><pubDate>Sun, 04 Feb 2018 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Lately I’ve been thinking that instead of just complaining about iOS, maybe I could do something to make it better.&lt;/p&gt;
+Reach out on Twitter to discuss more!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Reporting iOS Bugs]]></title><description><![CDATA[Lately I’ve been thinking that instead of just complaining about iOS, maybe I could do something to make it better. I found two bugs in my…]]></description><link>https://jayhankins.me/2018/reporting-ios-bugs/</link><guid isPermaLink="false">https://jayhankins.me/2018/reporting-ios-bugs/</guid><pubDate>Sun, 04 Feb 2018 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Lately I’ve been thinking that instead of just complaining about iOS, maybe I could do something to make it better.&lt;/p&gt;
 &lt;p&gt;I found two bugs in my new iPhone X. I’m not sure if they are iOS 11 bugs, iPhone X bugs, or FaceID bugs. Regardless, I thought it would be nice to document the process of bug reporting and the followup process. I’ve never reported a bug to Apple before… Let’s see what happens!&lt;/p&gt;
 &lt;h2&gt;The Issue&lt;/h2&gt;
 &lt;p&gt;With a Mac and iOS device, you can take a screen recording of your device through QuickTime Player. Just connect it to your MacBook and you can select it as a device in QuickTime.&lt;/p&gt;
 &lt;p&gt; When your device is in this mode, the clock changes to “9:41”. On my iPhone X, this only happens on the status bar clock and not on the lock screen, which continues to show the time of day. On previous versions of iOS, the lock screen clock changed as well.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/animation-of-bug-977e20cedfeb6f882629cdcbe6ed2a38.gif&quot; alt=&quot;animation-of-bug&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/977e20cedfeb6f882629cdcbe6ed2a38/animation-of-bug.gif&quot; alt=&quot;animation-of-bug&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Caption: 1:31 on the lock screen clock; 9:41 on the status bar.&lt;/p&gt;
 &lt;h2&gt;Letting Apple Know&lt;/h2&gt;
 &lt;p&gt;Here’s the bug report I filled out. It’s important to be as verbose and specific as possible. When you include things like the software versions on the original bug report, it can be a big help for developers who track down the bugs.
@@ -1126,7 +1186,6 @@ Reach out on Twitter to discuss more!&lt;/p&gt;</content:encoded></item><item><t
 /static/2a062290427853f05bd6184712c1def3/b9e4f/bug-report.png 590w,
 /static/2a062290427853f05bd6184712c1def3/f9b6a/bug-report.png 885w,
 /static/2a062290427853f05bd6184712c1def3/2d849/bug-report.png 1180w,
-/static/2a062290427853f05bd6184712c1def3/bbefa/bug-report.png 1770w,
 /static/2a062290427853f05bd6184712c1def3/8d098/bug-report.png 2044w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         loading=&quot;lazy&quot;
@@ -1158,7 +1217,6 @@ Reach out on Twitter to discuss more!&lt;/p&gt;</content:encoded></item><item><t
 /static/d36985088ef9e116641e9bc230c0b907/b9e4f/bug-upload-screen.png 590w,
 /static/d36985088ef9e116641e9bc230c0b907/f9b6a/bug-upload-screen.png 885w,
 /static/d36985088ef9e116641e9bc230c0b907/2d849/bug-upload-screen.png 1180w,
-/static/d36985088ef9e116641e9bc230c0b907/bbefa/bug-upload-screen.png 1770w,
 /static/d36985088ef9e116641e9bc230c0b907/a987b/bug-upload-screen.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         loading=&quot;lazy&quot;
@@ -1225,7 +1283,6 @@ Reach out on Twitter to discuss more!&lt;/p&gt;</content:encoded></item><item><t
 /static/6ab0306e9e926911dfd637e69a54b770/b9e4f/apples-reply.png 590w,
 /static/6ab0306e9e926911dfd637e69a54b770/f9b6a/apples-reply.png 885w,
 /static/6ab0306e9e926911dfd637e69a54b770/2d849/apples-reply.png 1180w,
-/static/6ab0306e9e926911dfd637e69a54b770/bbefa/apples-reply.png 1770w,
 /static/6ab0306e9e926911dfd637e69a54b770/35a16/apples-reply.png 1934w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         loading=&quot;lazy&quot;
@@ -1479,7 +1536,6 @@ When you look at LastPass’s feature-set, especially now that mobile sync is fr
 /static/c82832f5c8c838d187ad59ff3c9afefe/b9e4f/enpass.png 590w,
 /static/c82832f5c8c838d187ad59ff3c9afefe/f9b6a/enpass.png 885w,
 /static/c82832f5c8c838d187ad59ff3c9afefe/2d849/enpass.png 1180w,
-/static/c82832f5c8c838d187ad59ff3c9afefe/bbefa/enpass.png 1770w,
 /static/c82832f5c8c838d187ad59ff3c9afefe/1e4b3/enpass.png 1976w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         loading=&quot;lazy&quot;
@@ -1547,19 +1603,17 @@ make install&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;For example: &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;sshfs hankinsj@data.cs.purdue.edu:/homes/hankinsj/ ./purdue -o auto_cache,reconnect,defer_permissions,noappledouble &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Now change to the directory you mounted in. You should see the remote files in the directory, and you can interact with them just as if they were local files on your Mac.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Now change to the directory you mounted in. You should see the remote files in the directory, and you can interact with them just as if they were local files on your Mac.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Unmount Your Remote Directory&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Run the &lt;code class=&quot;language-text&quot;&gt;umount&lt;/code&gt; command to unmount the directory:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;umount ./desired_mountpoint&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;umount ~/purdue &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;   For example:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;umount ~/purdue &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;hr&gt;
 &lt;p&gt;Of course, this works on any system that supports SSH, but the case of connecting to Purdue servers to work on projects from home has been especially convenient during my time as a CS student. I’ve found it to be a bit flaky depending on your network connectivity, and it rarely resumes the mount from a suspend gracefully. However, it’s a really convenient way to access your files remotely while still developing locally. &lt;/p&gt;
 &lt;p&gt;Are you a Purdue CS student that stumbled upon this? Did it help you? Did something not work? Let me know &lt;a href=&quot;//twitter.com/jay_hankins&quot;&gt;@jay_hankins&lt;/a&gt;!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Development Mac Setup]]></title><description><![CDATA[I’ve had my MacBook for a little over a year now. Throughout this time, I’ve finally configured things mostly the way I want them. I’m not…]]></description><link>https://jayhankins.me/2016/my-development-mac-setup/</link><guid isPermaLink="false">https://jayhankins.me/2016/my-development-mac-setup/</guid><pubDate>Sun, 14 Aug 2016 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
@@ -1575,7 +1629,7 @@ make install&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 58.909090909090914%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFAv/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAFs+ipGkZDf/8QAHBAAAgICAwAAAAAAAAAAAAAAAQMAAgQSEyIz/9oACAEBAAEFAn6hmwtMTwYsWZwiJ6L/AP/EABYRAAMAAAAAAAAAAAAAAAAAABARUf/aAAgBAwEBPwFQf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAQEBAAMAAAAAAAAAAAAAAAEAEQIxMv/aAAgBAQAGPwLmoLeQiXW7bC//xAAdEAEAAgEFAQAAAAAAAAAAAAABACGhMUFRcbHw/9oACAEBAAE/Ibxho9EVY0z32MsF2J85KVwcz//aAAwDAQACAAMAAAAQIP8A/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERMWH/2gAIAQMBAT8QpWd6JRRn/8QAGBEBAQADAAAAAAAAAAAAAAAAAQAhMUH/2gAIAQIBAT8QEwvJ3f/EAB0QAQACAgIDAAAAAAAAAAAAAAEAESExQbFh4fD/2gAIAQEAAT8Qqt1AIIwYHD1MCNHejthForQcniX/AA6jcuC3vlvif//Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 58.909090909090914%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFAv/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAWz6KkKRkK//xAAcEAACAgIDAAAAAAAAAAAAAAABAwACBBITIjP/2gAIAQEAAQUCfqGbC0xPBixZnCInov8A/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAFx/9oACAEDAQE/AcR//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGRABAQEAAwAAAAAAAAAAAAAAAQARAjEy/9oACAEBAAY/Auagt5CJdbtsL//EAB0QAQACAQUBAAAAAAAAAAAAAAEAIaExQVFxsfD/2gAIAQEAAT8hvGGj0RVjTPfYywXYnzkpXBzP/9oADAMBAAIAAwAAABAk/wD/xAAYEQADAQEAAAAAAAAAAAAAAAAAARExUf/aAAgBAwEBPxCNXswj/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQAhMf/aAAgBAgEBPxATFnt//8QAHRABAAICAwEBAAAAAAAAAAAAAQARITFBYbFx8P/aAAgBAQABPxCq3UAgjBgcO/kwI0e6O2EWitBydS78PI3Lgt75b4n/2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -1644,7 +1698,6 @@ make install&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 /static/3616de2a52e779f1cfed5806f5400a87/b9e4f/sublime.png 590w,
 /static/3616de2a52e779f1cfed5806f5400a87/f9b6a/sublime.png 885w,
 /static/3616de2a52e779f1cfed5806f5400a87/2d849/sublime.png 1180w,
-/static/3616de2a52e779f1cfed5806f5400a87/bbefa/sublime.png 1770w,
 /static/3616de2a52e779f1cfed5806f5400a87/834a6/sublime.png 3040w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         loading=&quot;lazy&quot;
@@ -1685,7 +1738,6 @@ SublimeText is a quintessential text editor for Windows, Mac OS X, and Linux. I 
 /static/6a32cad73e66b7d6f6e1b463b44c8d8c/b9e4f/polymail.png 590w,
 /static/6a32cad73e66b7d6f6e1b463b44c8d8c/f9b6a/polymail.png 885w,
 /static/6a32cad73e66b7d6f6e1b463b44c8d8c/2d849/polymail.png 1180w,
-/static/6a32cad73e66b7d6f6e1b463b44c8d8c/bbefa/polymail.png 1770w,
 /static/6a32cad73e66b7d6f6e1b463b44c8d8c/834a6/polymail.png 3040w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         loading=&quot;lazy&quot;
