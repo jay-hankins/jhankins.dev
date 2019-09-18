@@ -73,6 +73,7 @@ class Layout extends React.Component {
                 <Header>
                   <StyledLink to={`/`}>{title}</StyledLink>
                 </Header>
+
                 <Menu />
                 <DarkModeSwitcherButton theme={themeObj} />
                 {children}
