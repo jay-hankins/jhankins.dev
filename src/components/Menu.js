@@ -8,6 +8,12 @@ const linksObj = [
   { title: 'About', path: '/about' },
   { title: 'Contact', path: '/contact' },
   { title: 'Journal', path: '/journal' },
+  {
+    type: 'a',
+    title: 'Resume',
+    path:
+      'https://www.notion.so/jhankins/Jay-Hankins-27f05bd755124f46a5ad86374988440b',
+  },
 ];
 
 const NavLinks = styled.ul`
