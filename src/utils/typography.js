@@ -2,7 +2,6 @@ import Typography from 'typography';
 import Wordpress2016 from 'typography-theme-wordpress-2016';
 
 const systemFontStack = [
-  'IBM Plex Sans',
   '-apple-system',
   'BlinkMacSystemFont',
   'Segoe UI',
@@ -16,7 +15,7 @@ const systemFontStack = [
   'Segoe UI Symbol',
   'Noto Color Emoji',
 ];
-const bodyFontStack = [...systemFontStack];
+const bodyFontStack = ['IBM Plex Sans', ...systemFontStack];
 const headerFontStack = [...systemFontStack];
 
 Wordpress2016.overrideThemeStyles = () => {
