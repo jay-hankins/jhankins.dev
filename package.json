@@ -46,8 +46,10 @@
     "react-transition-group": "^4.3.0",
     "react-typography": "^0.16.13",
     "styled-components": "^4.3.2",
+    "typeface-crete-round": "0.0.72",
     "typeface-ibm-plex-sans": "0.0.75",
     "typeface-ibm-plex-serif": "0.0.75",
+    "typeface-public-sans": "^1.1.1",
     "typography": "^0.16.17",
     "typography-theme-wordpress-2016": "^0.16.18"
   },
