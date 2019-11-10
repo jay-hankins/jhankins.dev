@@ -2,7 +2,6 @@ import Typography from 'typography';
 import Wordpress2016 from 'typography-theme-wordpress-2016';
 
 export const systemFontStack = [
-  'Public Sans',
   '-apple-system',
   'BlinkMacSystemFont',
   'Segoe UI',

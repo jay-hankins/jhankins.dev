@@ -10,10 +10,9 @@ import { rhythm } from '../utils/typography';
 import styled from 'styled-components';
 import DarkModeSwitcherButton from '../components/DarkmodeSwitcherButton';
 
-const Header = styled.h1`
+const Header = styled.h2`
   margin-top: 0;
   font-weight: 300;
-  font-size: 1.7rem;
 `;
 
 const StyledLink = styled(Link)`
@@ -59,7 +58,7 @@ const LeftContainer = styled.div`
   max-width: ${rhythm(24)};
   padding: ${rhythm(1.5)} ${rhythm(3 / 4)};
   p {
-    text-indent: -1.75rem;
+    text-indent: -2.2rem;
   }
 `;
 

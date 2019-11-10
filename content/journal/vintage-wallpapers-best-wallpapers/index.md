@@ -1,7 +1,7 @@
 ---
 title: Vintage Wallpapers are the Best Wallpapers
 date: '20190915'
-draft: True
+draft: true
 ---
 
 Time and time again, my favorite wallpapers (computer backgrounds) are the OEM
