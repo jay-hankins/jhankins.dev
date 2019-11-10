@@ -34,7 +34,7 @@ class JournalPostTemplate extends React.Component {
     const { previous, next } = this.props.pageContext;
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <k title={post.frontmatter.title} description={post.excerpt} />
+        <SEO title={post.frontmatter.title} description={post.excerpt} />
         <Title>{post.frontmatter.title}</Title>
         <StyleP
           style={{

@@ -65,7 +65,10 @@ const MainContainer = styled.div`
 `;
 
 const LeftContainer = styled.div`
-  margin: 0 10%;
+  @media (min-width: 735px) {
+    margin: 0 10%;
+  }
+  margin: 0 1%;
   max-width: ${rhythm(24)};
   padding: ${rhythm(1.5)} ${rhythm(3 / 4)};
 `;
