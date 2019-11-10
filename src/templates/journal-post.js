@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 import Barcode from 'react-barcode';
-import 'typeface-ibm-plex-sans';
+import 'typeface-ibm-plex-serif';
 import hash from 'hash-sum';
 
 import Bio from '../components/Bio';
@@ -23,7 +23,7 @@ const StyleDiv = styled.div`
 `;
 
 const Title = styled.h1`
-  font-family: 'IBM PLex Serif';
+  font-family: 'IBM Plex Serif';
   font-weight: 700;
 `;
 
