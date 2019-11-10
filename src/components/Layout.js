@@ -14,6 +14,16 @@ const Header = styled.h1`
   margin-top: 0;
   font-weight: 300;
   font-size: 1.7rem;
+  ${props => {
+    if (props.darkMode) {
+      return `
+  transition: all 0.3s ease;
+  
+  a, a:visited {
+    color: #fff !important;
+  }`;
+    }
+  }}
 `;
 
 const StyledLink = styled(Link)`
@@ -70,7 +80,7 @@ class Layout extends React.Component {
           <FlexContainer darkMode={themeObj.darkMode}>
             <MainContainer>
               <LeftContainer>
-                <Header>
+                <Header darkMode={themeObj.darkMode}>
                   <StyledLink to={`/`}>{title}</StyledLink>
                 </Header>
 

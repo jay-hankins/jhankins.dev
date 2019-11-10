@@ -10,9 +10,20 @@ import { rhythm } from '../utils/typography';
 import styled from 'styled-components';
 import DarkModeSwitcherButton from '../components/DarkmodeSwitcherButton';
 
-const Header = styled.h2`
+const Header = styled.h1`
   margin-top: 0;
   font-weight: 300;
+  font-size: 1.7rem;
+  ${props => {
+    if (props.darkMode) {
+      return `
+  transition: all 0.3s ease;
+  
+  a, a:visited {
+    color: #fff !important;
+  }`;
+    }
+  }}
 `;
 
 const StyledLink = styled(Link)`
@@ -57,9 +68,6 @@ const LeftContainer = styled.div`
   margin: 0 10%;
   max-width: ${rhythm(24)};
   padding: ${rhythm(1.5)} ${rhythm(3 / 4)};
-  p {
-    text-indent: -2.2rem;
-  }
 `;
 
 class AboutLayout extends React.Component {
@@ -72,7 +80,7 @@ class AboutLayout extends React.Component {
           <FlexContainer darkMode={themeObj.darkMode}>
             <MainContainer>
               <LeftContainer>
-                <Header>
+                <Header darkMode={themeObj.darkMode}>
                   <StyledLink to={`/`}>{title}</StyledLink>
                 </Header>
 

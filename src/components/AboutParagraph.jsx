@@ -5,7 +5,6 @@ import styled from 'styled-components';
 
 const FlexDiv = styled.div`
   display: flex;
-  margin-bottom: 1.2rem;
 `;
 
 const Emoji = styled.span`

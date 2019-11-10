@@ -6,7 +6,7 @@ import hash from 'hash-sum';
 
 import Bio from '../components/Bio';
 import Layout from '../components/Layout';
-import SEO from '../components/seo';
+import SEO from '../components/SEO';
 import PGPInfo from '../components/PGPInfo';
 import { rhythm, scale } from '../utils/typography';
 import ThemeContext from '../context/ThemeContext';

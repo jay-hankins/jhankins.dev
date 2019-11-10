@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
-import SEO from '../components/seo';
+import SEO from '../components/SEO';
 import { rhythm } from '../utils/typography';
 import styled from 'styled-components';
 
@@ -22,9 +22,10 @@ class Journal extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="Blog"
+          title="Journal"
           keywords={[
             `blog`,
+            `journal`,
             `javascript`,
             `react`,
             `gatsby`,
