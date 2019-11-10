@@ -19,17 +19,19 @@ class BlogPostTemplate extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
-        <h1>{post.frontmatter.title}</h1>
         <p
           style={{
             ...scale(-1 / 5),
             display: `block`,
             marginBottom: rhythm(1),
             marginTop: rhythm(-1),
+            fontWeight: 500,
+            color: 'rgb(136,136,136)',
           }}
         >
           {post.frontmatter.date}
         </p>
+        <h1>{post.frontmatter.title}</h1>
 
         <ThemeContext.Consumer>
           {theme => (
@@ -52,7 +54,10 @@ class BlogPostTemplate extends React.Component {
             </ReactCSSTransitionReplace>
           )}
         </ThemeContext.Consumer>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div
+          style={{ marginTop: '4rem' }}
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
         <hr
           style={{
             marginBottom: rhythm(1),

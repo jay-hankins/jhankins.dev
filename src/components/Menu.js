@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import { rhythm } from '../utils/typography';
+import { systemFontStack, rhythm } from '../utils/typography';
 import styled from 'styled-components';
 
 const linksObj = [
@@ -20,7 +20,8 @@ const NavLinks = styled.ul`
   list-style: none;
   padding: 0;
   display: flex;
-  margin: 0;
+  margin-bottom: 5rem;
+  font-family: ${systemFontStack.join(',')};
 `;
 
 const NavLi = styled.li`

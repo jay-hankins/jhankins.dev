@@ -79,12 +79,13 @@ exports.createPages = ({ graphql, actions }) => {
       const previous =
         index === journals.length - 1 ? null : journals[index + 1].node;
       const next = index === 0 ? null : journals[index - 1].node;
+      console.log(journal.node.fields.slug);
 
       createPage({
-        path: journal.node.fields.slug,
+        path: `${journal.node.fields.slug}`,
         component: journalPost,
         context: {
-          slug: journal.node.fields.slug,
+          slug: `${journal.node.fields.slug}`,
           previous,
           next,
         },
