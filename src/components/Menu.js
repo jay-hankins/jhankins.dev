@@ -20,8 +20,8 @@ const NavLinks = styled.ul`
   list-style: none;
   padding: 0;
   display: flex;
-  margin-bottom: 5rem;
   font-family: ${systemFontStack.join(',')};
+  margin-left: 0;
 `;
 
 const NavLi = styled.li`
