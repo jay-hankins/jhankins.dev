@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 import { rhythm } from '../utils/typography';
 
@@ -8,7 +9,7 @@ const FancyFooter = styled.footer`
 `;
 
 const Ffp = styled.p`
-  margin: 0;
+  margin: 0 0 1rem 0;
   font-size: small;
 `;
 
@@ -16,27 +17,48 @@ const Ffa = styled.a`
   color: white;
 `;
 
+const StyledLink = styled(Link)`
+  color: white;
+`;
+
+const Container = styled.div`
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: ${`${rhythm(1.5)} ${rhythm(3 / 4)}`};
+`;
+
+const Row = styled.div`
+  display: flex;
+`;
+
 const Footer = theme => {
   return (
     <FancyFooter theme>
-      <div
-        style={{
-          marginLeft: '10%',
-          marginRight: '10%',
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
-        <Ffp>© {new Date().getFullYear()} Jay Hankins</Ffp>
-        <Ffp>
-          Except where otherwise noted, content on this site is licensed under a
-          <br />{' '}
-          <Ffa href="http://creativecommons.org/licenses/by-sa/4.0/">
-            Creative Commons Attribution-ShareAlike 4.0 International License
-          </Ffa>
-          .
-        </Ffp>
-      </div>
+      <Container>
+        <Row>
+          <div style={{ minWidth: '9rem' }}>
+            <Ffp>© {new Date().getFullYear()} Jay Hankins — </Ffp>
+          </div>{' '}
+          <div>
+            <Ffp>
+              Except where otherwise noted, content on this site is licensed
+              under a &nbsp;
+              <Ffa href="http://creativecommons.org/licenses/by-sa/4.0/">
+                Creative Commons Attribution-ShareAlike 4.0 International
+                License
+              </Ffa>
+              .
+            </Ffp>
+          </div>
+        </Row>
+        <Row>
+          <Ffp>
+            This site doesn't track you— I don't collect analytics. <br /> Want
+            to share how you found my site, or give me feedback?{' '}
+            <StyledLink to="/contact"> I'd love to hear from you.</StyledLink>
+          </Ffp>
+        </Row>
+      </Container>
     </FancyFooter>
   );
 };
