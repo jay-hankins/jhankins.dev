@@ -16,6 +16,7 @@ module.exports = {
         name: `blog`,
       },
     },
+    `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -152,7 +153,7 @@ module.exports = {
         path: `${__dirname}/src/pages/`,
       },
     },
-    `gatsby-plugin-mdx`,
+
     // `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
