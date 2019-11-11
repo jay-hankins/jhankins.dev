@@ -29,6 +29,7 @@ const Container = styled.div`
 
 const Row = styled.div`
   display: flex;
+  flex-wrap: wrap;
 `;
 
 const Footer = theme => {
@@ -39,10 +40,10 @@ const Footer = theme => {
           <div style={{ minWidth: '9rem' }}>
             <Ffp>© {new Date().getFullYear()} Jay Hankins — </Ffp>
           </div>{' '}
-          <div>
+          <div style={{ width: '18rem', flexGrow: 1 }}>
             <Ffp>
               Except where otherwise noted, content on this site is licensed
-              under a &nbsp;
+              under a&nbsp;
               <Ffa href="http://creativecommons.org/licenses/by-sa/4.0/">
                 Creative Commons Attribution-ShareAlike 4.0 International
                 License
