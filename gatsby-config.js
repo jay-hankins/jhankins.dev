@@ -39,6 +39,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
+              backgroundColor: 'transparent',
             },
           },
           {
@@ -50,7 +51,7 @@ module.exports = {
           {
             resolve: 'gatsby-remark-video',
             options: {
-              width: 700,
+              width: 590,
               height: 'auto',
               preload: 'auto',
               muted: true,
