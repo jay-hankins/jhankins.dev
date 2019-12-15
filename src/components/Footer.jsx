@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { rhythm } from '../utils/typography';
 
 const FancyFooter = styled.footer`
-  background-color: #2a2b2d;
+  background-color: #2f3640;
   color: white;
 `;
 

@@ -46,8 +46,8 @@ class BlogPostTemplate extends React.Component {
                   height={25}
                   width={1.5}
                   margin={0}
-                  background={theme.darkMode ? '#2a2b2d' : '#ffffff'}
-                  lineColor={!theme.darkMode ? '#2a2b2d' : '#ffffff'}
+                  background={theme.darkMode ? '#212735' : '#ffffff'}
+                  lineColor={!theme.darkMode ? '#212735' : '#ffffff'}
                 />
               </div>
             </ReactCSSTransitionReplace>

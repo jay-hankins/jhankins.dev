@@ -39,7 +39,7 @@ const FlexContainer = styled.div`
   transition: all 0.3s ease;
   ${props => {
     if (props.darkMode) {
-      return `background-color: #2a2b2d;
+      return `background-color: #2f3640;
   color: #fff;
   transition: all 0.3s ease;
   
