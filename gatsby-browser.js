@@ -1,6 +1,6 @@
 // custom typefaces
 import 'prismjs/themes/prism-okaidia.css';
-import 'typeface-public-sans';
+import 'typeface-inter';
 import React from 'react';
 
 import ThemeContext from './src/context/ThemeContext';

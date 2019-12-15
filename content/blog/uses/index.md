@@ -7,9 +7,9 @@ description: This page catalogs the hardware and software that I use on a daily 
 
 <figure>
 
-<img src="MacBook.png"> </img>
+  <img src="MacBook.png"> </img>
 
-<!-- <figcaption>My personal computer is a 15" MacBook Pro from 2016.</figcaption> -->
+  <!-- <figcaption>My personal computer is a 15" MacBook Pro from 2016.</figcaption> -->
 
 </figure>
 
