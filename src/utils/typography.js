@@ -15,8 +15,8 @@ export const systemFontStack = [
   'Segoe UI Symbol',
   'Noto Color Emoji',
 ];
-const bodyFontStack = [...systemFontStack];
-const headerFontStack = [...systemFontStack];
+const bodyFontStack = ['Public Sans', ...systemFontStack];
+const headerFontStack = ['Public Sans', ...systemFontStack];
 
 Wordpress2016.overrideThemeStyles = () => {
   return {
