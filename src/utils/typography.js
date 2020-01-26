@@ -2,10 +2,10 @@ import Typography from 'typography';
 import Wordpress2016 from 'typography-theme-wordpress-2016';
 
 export const systemFontStack = [
-  '-apple-system',
-  'BlinkMacSystemFont',
-  'Segoe UI',
-  'Roboto',
+  // '-apple-system',
+  // 'BlinkMacSystemFont',
+  // 'Segoe UI',
+  // 'Roboto',
   'Helvetica Neue',
   'Arial',
   'Noto Sans',
@@ -15,8 +15,8 @@ export const systemFontStack = [
   'Segoe UI Symbol',
   'Noto Color Emoji',
 ];
-const bodyFontStack = ['Public Sans', ...systemFontStack];
-const headerFontStack = ['Public Sans', ...systemFontStack];
+const bodyFontStack = [...systemFontStack];
+const headerFontStack = [...systemFontStack];
 
 Wordpress2016.overrideThemeStyles = () => {
   return {
