@@ -5,7 +5,6 @@ import { rhythm } from '../utils/typography';
 
 const FancyFooter = styled.footer`
   background-color: #2f3640;
-  color: white;
 `;
 
 const Ffp = styled.p`
@@ -22,9 +21,17 @@ const StyledLink = styled(Link)`
 `;
 
 const Container = styled.div`
-  margin-left: 10%;
-  margin-right: 10%;
+  @media (min-width: 735px) {
+    margin: 0 10%;
+  }
+  margin: 0 1%;
   padding: ${`${rhythm(1.5)} ${rhythm(3 / 4)}`};
+  color: white;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+  :hover {
+    opacity: 1;
+  }
 `;
 
 const Row = styled.div`

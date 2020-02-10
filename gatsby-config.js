@@ -124,6 +124,7 @@ module.exports = {
               noInlineHighlight: false,
             },
           },
+          `gatsby-remark-autolink-headers`,
         ],
       },
     },

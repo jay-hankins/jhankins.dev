@@ -37,6 +37,9 @@ const FlexContainer = styled.div`
   flex-direction: column;
   min-height: 100vh;
   transition: all 0.3s ease;
+  h2 > a {
+    box-shadow: none;
+  }
   ${props => {
     if (props.darkMode) {
       return `background-color: #2f3640;
@@ -85,10 +88,11 @@ class Layout extends React.Component {
               <LeftContainer>
                 <Header darkMode={themeObj.darkMode}>
                   <StyledLink to={`/`}>{title}</StyledLink>
+                  <DarkModeSwitcherButton theme={themeObj} />
                 </Header>
 
                 <Menu />
-                <DarkModeSwitcherButton theme={themeObj} />
+
                 {children}
               </LeftContainer>
             </MainContainer>

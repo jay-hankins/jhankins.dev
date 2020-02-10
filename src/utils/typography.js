@@ -2,10 +2,10 @@ import Typography from 'typography';
 import Wordpress2016 from 'typography-theme-wordpress-2016';
 
 export const systemFontStack = [
-  // '-apple-system',
-  // 'BlinkMacSystemFont',
-  // 'Segoe UI',
-  // 'Roboto',
+  '-apple-system',
+  'BlinkMacSystemFont',
+  'Segoe UI',
+  'Roboto',
   'Helvetica Neue',
   'Arial',
   'Noto Sans',
@@ -28,15 +28,15 @@ Wordpress2016.overrideThemeStyles = () => {
     },
     h1: {
       fontFamily: headerFontStack.join(','),
-      fontWeight: 600,
+      fontWeight: 500,
       // letterSpacing: '-1.0pt',
     },
     h2: {
-      fontWeight: 600,
+      fontWeight: 500,
       // letterSpacing: '-0.5pt',
     },
     h3: {
-      fontWeight: 600,
+      fontWeight: 500,
       // letterSpacing: '-0.5pt',
     },
     p: {

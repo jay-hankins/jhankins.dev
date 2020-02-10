@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
+import Fragment from 'react';
 import Barcode from 'react-barcode';
 import hash from 'hash-sum';
 
@@ -30,7 +31,11 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
-        <h1>{post.frontmatter.title}</h1>
+        <h1>
+          {post.frontmatter.emoji !== null && `${post.frontmatter.emoji}`}
+          {post.frontmatter.emoji !== null && <br />}
+          {post.frontmatter.title}
+        </h1>
 
         <ThemeContext.Consumer>
           {theme => (
@@ -113,6 +118,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        emoji
       }
     }
   }

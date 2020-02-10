@@ -85,10 +85,11 @@ class AboutLayout extends React.Component {
               <LeftContainer>
                 <Header darkMode={themeObj.darkMode}>
                   <StyledLink to={`/`}>{title}</StyledLink>
+                  <DarkModeSwitcherButton theme={themeObj} />
                 </Header>
 
                 <Menu />
-                <DarkModeSwitcherButton theme={themeObj} />
+
                 {children}
               </LeftContainer>
             </MainContainer>

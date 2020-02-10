@@ -20,18 +20,22 @@ const StyledButton = styled.button`
 `;
 
 const StyledLabel = styled.span`
-  font-size: smaller;
   vertical-align: top;
+  font-size: 10pt;
+  margin-left: 1.2rem;
+  margin-top: 0.6rem;
+  display: inline-block;
 `;
 
 const Emoji = styled.span`
-  padding-left: 0.8rem;
+  padding-left: 0.5rem;
   img {
     height: 28px;
     width: 28px;
     display: inline-block;
     margin: 0;
     vertical-align: top;
+    margin-top: 0.2rem;
   }
 `;
 
