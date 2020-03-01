@@ -1,6 +1,7 @@
 ---
 title: Superpowers
 date:  '20191214'
+emoji: ' '
 ---
 
 I spoke to the [Space 4 Us](https://www.space4usproject.org/) group at Salesforce today. Here are the slides (hosted by Google):
