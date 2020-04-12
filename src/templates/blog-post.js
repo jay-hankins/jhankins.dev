@@ -17,6 +17,15 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark;
     const siteTitle = this.props.data.site.siteMetadata.title;
     const { previous, next } = this.props.pageContext;
+    const hasEmoji = post => {
+      const emoji = post.frontmatter.emoji;
+      return !(
+        emoji === null ||
+        emoji === undefined ||
+        emoji === '' ||
+        emoji === ' '
+      );
+    };
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
@@ -32,8 +41,8 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date}
         </p>
         <h1>
-          {post.frontmatter.emoji !== null && `${post.frontmatter.emoji}`}
-          {post.frontmatter.emoji !== null && <br />}
+          {hasEmoji(post) && `${post.frontmatter.emoji}`}
+          {hasEmoji(post) && <br />}
           {post.frontmatter.title}
         </h1>
 
