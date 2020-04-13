@@ -37,3 +37,7 @@ figcaption {
   font-style: italic;
   text-align: center;
 }
+
+h3 a {
+  box-shadow: none;
+}

@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 
 import Menu from '../components/Menu';
 
-// import './layout.css';
+import './layout.css';
 import ThemeContext from '../context/ThemeContext';
 import { rhythm } from '../utils/typography';
 import styled from 'styled-components';
