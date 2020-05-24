@@ -16,7 +16,7 @@ export const systemFontStack = [
   'Noto Color Emoji',
 ];
 const bodyFontStack = [...systemFontStack];
-const headerFontStack = [...systemFontStack];
+const headerFontStack = ['Nunito', ...systemFontStack];
 
 Wordpress2016.overrideThemeStyles = () => {
   return {
@@ -33,10 +33,12 @@ Wordpress2016.overrideThemeStyles = () => {
     },
     h2: {
       fontWeight: 500,
+      marginBottom: '1rem',
       // letterSpacing: '-0.5pt',
     },
     h3: {
       fontWeight: 500,
+      marginBottom: '0.75rem',
       // letterSpacing: '-0.5pt',
     },
     p: {
